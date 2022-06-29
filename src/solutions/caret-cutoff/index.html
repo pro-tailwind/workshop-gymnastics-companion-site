@@ -1,0 +1,25 @@
+<div class="min-h-screen overflow-hidden bg-indigo-600">
+  <div class="mx-auto mt-24 w-full max-w-7xl p-8">
+    <div class="flex h-[700px] overflow-hidden rounded-2xl shadow-xl">
+      <div class="relative basis-1/3 bg-gray-100 pr-4">
+        <svg class="absolute top-0 -right-px h-full w-4 drop-shadow-lg">
+          <mask id="cutoff">
+            <rect class="h-full w-full fill-white"></rect>
+            <path
+              class="translate-y-9 fill-black"
+              d="M0 1.7C0 3 .5 4.2 1.4 5.1L12 15.7c.8.7.8 2 0 2.7L1.4 29C.5 30 0 31.1 0 32.4v.6V.9v.8Z"
+            />
+          </mask>
+          <rect class="h-full w-full fill-white" mask="url(#cutoff)"></rect>
+        </svg>
+
+        <h2 class="p-10 text-xl font-medium">Side panel</h2>
+      </div>
+      <div class="relative basis-2/3 bg-white">
+        <div class="-ml-4">
+          <h2 class="p-10 text-xl font-medium">Main panel</h2>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
