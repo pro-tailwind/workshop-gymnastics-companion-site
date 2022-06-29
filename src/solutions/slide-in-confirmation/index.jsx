@@ -11,7 +11,7 @@ export default function SlideInConfirmation() {
       <div className="mx-auto w-full max-w-lg p-16">
         <div className="mx-4 rounded-2xl bg-white p-8 shadow-2xl">
           <h2 className="text-xl font-medium">Tuesday, 28th June 2022</h2>
-          <ul className="-mx-4 mt-6 space-y-2 overflow-y-auto px-4 pb-4">
+          <ul className="-mx-4 mt-6 space-y-2 overflow-y-auto px-4">
             {times.map((time) => {
               const isSelected = time === selectedTime
               return (
