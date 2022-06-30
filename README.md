@@ -1,4 +1,4 @@
-# Pro Tailwind: Exctracting Reusable UI Components
+# Pro Tailwind: Advanced CSS Gymnastics with Tailwind
 
 The Pro Tailwind Advanced Gymnastics is a series of CSS deep dives into some of the most interesting parts of the Booking UI application.
 
