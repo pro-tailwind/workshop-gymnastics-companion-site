@@ -1,3 +1,41 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+/* .bg-stripes {
+  position: relative;
+}
+
+.bg-stripes:after {
+  --stripes-opacity: 0.2;
+  --stripes-size: 10px;
+  --stripes-angle: -45deg;
+
+  content: '';
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 100%;
+  width: calc(100% + var(--stripes-size));
+  background-image: linear-gradient(
+    var(--stripes-angle),
+    rgb(255 255 255 / var(--stripes-opacity)),
+    rgb(255 255 255 / var(--stripes-opacity)) 10%,
+    transparent 10%,
+    transparent 50%,
+    rgb(255 255 255 / var(--stripes-opacity)) 50%,
+    rgb(255 255 255 / var(--stripes-opacity)) 60%,
+    transparent 60%,
+    transparent
+  );
+  background-size: var(--stripes-size) var(--stripes-size);
+  animation: stripes 0.7s linear infinite;
+}
+@keyframes stripes {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(var(--stripes-size));
+  }
+} */
