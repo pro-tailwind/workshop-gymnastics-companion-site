@@ -26,7 +26,7 @@ If you're taking the workshop in person, here's what the schedule will look like
 | 1:15 PM - 2:15 PM | Content | 60 min | Tailwind CSS challenges part 1 |
 | 2:15 PM - 2:30 PM | Break   | 15 min | Coffee/Snacks                  |
 | 2:30 PM - 4:00 PM | Content | 90 min | Tailwind CSS challenges part 2 |
-| 4:00 PM - 4:15 PM | Break   | 15 min | Coffee/Snack                   |
+| 4:00 PM - 4:15 PM | Break   | 15 min | Coffee/Snacks                  |
 | 4:15 PM - 5:00 PM | Content | 45 min | Tailwind CSS challenges part 3 |
 
 ---
