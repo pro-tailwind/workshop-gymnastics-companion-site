@@ -1,15 +1,7 @@
 import cx from 'clsx'
+import Link from 'next/link'
 
-import { Link } from 'react-router-dom'
-const lessons = [
-  { name: 'Ribbon banner', folder: 'ribbon', language: 'HTML' },
-  { name: 'Caret cutoff', folder: 'caret-cutoff', language: 'HTML' },
-  { name: 'Background split', folder: 'background-split', language: 'HTML' },
-  { name: 'Scrolling list', folder: 'scrolling-list', language: 'HTML' },
-  { name: 'Scrolling fade-out', folder: 'scroll-fade-out', language: 'HTML' },
-  { name: 'Animated stripes', folder: 'animated-stripes', language: 'HTML' },
-  { name: 'Slide-in confirmation', folder: 'slide-in-confirmation', language: 'JSX' },
-]
+import { lessons } from '../data'
 
 export default function App() {
   return (
@@ -37,17 +29,15 @@ export default function App() {
                   {lesson.name}
                 </h2>
                 <div className="grid w-full grid-cols-2 divide-x border-t">
-                  <Link
-                    className="grid place-items-center py-8 font-medium text-gray-900 hover:bg-teal-300 hover:text-teal-900 hover:underline"
-                    to={`/exercises/${lesson.folder}`}
-                  >
-                    Exercise
+                  <Link href={`/exercises/${lesson.folder}`}>
+                    <a className="grid place-items-center py-8 font-medium text-gray-900 hover:bg-teal-300 hover:text-teal-900 hover:underline">
+                      Exercise
+                    </a>
                   </Link>
-                  <Link
-                    className="grid place-items-center py-8 font-medium text-gray-900 hover:bg-teal-300 hover:text-teal-900 hover:underline"
-                    to={`/solutions/${lesson.folder}`}
-                  >
-                    Solution
+                  <Link href={`/solutions/${lesson.folder}`}>
+                    <a className="grid place-items-center py-8 font-medium text-gray-900 hover:bg-teal-300 hover:text-teal-900 hover:underline">
+                      Solution
+                    </a>
                   </Link>
                 </div>
               </div>

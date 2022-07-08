@@ -1,13 +1,19 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/src/favicon.svg" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vite App</title>
-  </head>
-  <body>
-    <div id="root"></div>
-    <script type="module" src="/src/main.jsx"></script>
-  </body>
-</html>
+<div class="fixed inset-0 flex">
+  <div class="flex-1 bg-indigo-600"></div>
+  <div class="hidden flex-1 bg-indigo-500 xl:block"></div>
+</div>
+
+<div class="fixed inset-0 hidden xl:block">
+  <div class="mx-auto flex h-full max-w-7xl px-8">
+    <div class="basis-[400px]"></div>
+    <div class="flex-1 bg-indigo-500"></div>
+  </div>
+</div>
+<div class="relative grid min-h-screen place-items-center">
+  <div class="mx-auto w-full max-w-7xl p-8">
+    <div class="grid h-[700px] overflow-hidden rounded-2xl xl:grid-cols-[400px,2fr]">
+      <div class="bg-gray-100"></div>
+      <div class="bg-white"></div>
+    </div>
+  </div>
+</div>

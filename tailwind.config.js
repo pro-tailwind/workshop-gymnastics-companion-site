@@ -1,10 +1,11 @@
-const bgStripesPlugin = require('./src/bgStripesPlugin')
-
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: ['./src/**/*.{jsx,tsx,js,ts,html}'],
+  content: [
+    './{pages,components}/**/*.{js,jsx,ts,tsx}',
+    './workshop/{exercises,solutions}/**/*.{js,jsx,ts,tsx,html}',
+  ],
   theme: {
     extend: {},
   },
-  plugins: [bgStripesPlugin],
+  plugins: [require('./bgStripesPlugin')],
 }
