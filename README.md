@@ -1,34 +1,62 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Pro Tailwind: Advanced Tailwind CSS Gymnastics
 
-## Getting Started
+// TODO: Introduction
 
-First, run the development server:
+---
 
-```bash
-npm run dev
-# or
-yarn dev
-```
+## Workshop Schedule
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+If you're taking the workshop in person, here's what the schedule will look like:
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+| Time              | What    | Length | Topic                          |
+| ----------------- | ------- | ------ | ------------------------------ |
+| 1:00 PM - 1:15 PM | Intro   | 15 min | Meet & Greet, Housekeeping     |
+| 1:15 PM - 2:15 PM | Content | 60 min | Tailwind CSS challenges part 1 |
+| 2:15 PM - 2:30 PM | Break   | 15 min | Coffee/Snacks                  |
+| 2:30 PM - 3:45 PM | Content | 75 min | Tailwind CSS challenges part 2 |
+| 3:45 PM - 4:00 PM | Break   | 15 min | Coffee/Snacks                  |
+| 4:00 PM - 5:00 PM | Content | 60 min | Tailwind CSS challenges part 3 |
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+---
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+## Who's the teacher?
 
-## Learn More
+Hey!
 
-To learn more about Next.js, take a look at the following resources:
+I'm Simon, and I will be your workshop instructor. If you've watched some YouTube videos from the Tailwind Labs channel, you've most probably seen my face already!
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+I love utility-first CSS. I've been supporting and promoting this styling approach even before Tailwind CSS existed!
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+I'm a front-end developer, designer and content creator. I bring a lot of entusiasm and positive energy in everything I do, this is just how I'm wired up!
 
-## Deploy on Vercel
+I think I'm really good at teaching stuff, and make people excited to learn new things.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+I have been teaching in-person workshops for multiple senior engineering teams (Atlassian), and a constant piece of feedback I get is my workshops are exciting, fun and engaging.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+And to me, that's the best way to learn!
+
+I've been speaking at conferences, meetups, and I'm also an instructor on egghead.io
+
+Oh, and I recently started a podcast with my new friend Jon Myers - it's called The NavBar, you should check it out!
+
+You can connect with me on Twitter, I'm [@simonswiss](https://twitter.com/simonswiss).
+
+I'm super excited to dive into this workshop with you.
+
+## 🥅 Goal
+
+// TODO
+
+## 📜 Assumptions
+
+This workshop assumes the following:
+
+- You are already familiar with Tailwind CSS and its core concepts
+- You are comfortable enough with CSS and JavaScript
+
+### 📋 Dev Environment Requirements
+
+You should have the following installed in your development environment:
+
+- [git](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git) >= 2.34.1
+- [Node](https://nodejs.org/en/download/) >= 12.18.4
