@@ -1,13 +1,23 @@
-# Ribbon
+# Ribbon banner
 
-Hello, welcome to my workshop! I'm super excited to share this with you - we're going to have some fun with this one 🎉
+Welcome to this challenge! Blah blah blaaah.
 
-All the best - really it's going to be... **nice**.
+### Challenge
 
-Like, _very nice_.
+- Show the part of the UI we’re going to build
+- Give a few pointers (not too much!)
 
-See you on the other side!
+### Extra credit
 
-> Oh no he didn't.
+- make the same ribbon for top-left corner!
 
-Yes. Yes, I did.
+### Specs
+
+- Assign designated “driver” for each group
+- Share starting point link (Tailwind Play) and send to breakout room
+
+---
+
+⏰ Challenge time: **15 minutes** max
+
+**Good luck! 🤞**
