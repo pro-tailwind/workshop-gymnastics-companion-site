@@ -3,10 +3,16 @@ const nextConfig = {
   reactStrictMode: true,
   swcMinify: true,
   webpack: (config) => {
-    config.module.rules.push({
-      test: /\.html$/i,
-      loader: 'html-loader',
-    })
+    config.module.rules.push(
+      {
+        test: /\.html$/i,
+        loader: 'html-loader',
+      },
+      {
+        test: /\.md$/,
+        loader: 'raw-loader',
+      }
+    )
 
     return config
   },

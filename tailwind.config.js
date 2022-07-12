@@ -7,5 +7,5 @@ module.exports = {
   theme: {
     extend: {},
   },
-  plugins: [require('./bgStripesPlugin')],
+  plugins: [require('./bgStripesPlugin'), require('@tailwindcss/typography')],
 }
