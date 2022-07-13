@@ -1,10 +1,4 @@
-import cx from 'clsx'
-import Link from 'next/link'
-import ReactMarkdown from 'react-markdown'
-
-import { lessons } from '../data'
-
-export default function App() {
+export default function Homepage() {
   return (
     <>
       <div className="overflow-hidden bg-indigo-600">
@@ -37,11 +31,6 @@ export default function App() {
               Before we get started, let's take a look at the workshop format and do some quick
               housekeeping.
             </p>
-            <Link href="/challenges">
-              <a className="inline-block rounded-md bg-gradient-to-t from-indigo-500 to-indigo-400 px-5 py-3 font-semibold text-white no-underline shadow hover:from-indigo-400 hover:to-indigo-500">
-                See the challenges
-              </a>
-            </Link>
 
             <hr />
             <h2>Workshop timetable</h2>
