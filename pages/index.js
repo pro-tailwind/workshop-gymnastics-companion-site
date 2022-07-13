@@ -1,3 +1,5 @@
+import Link from 'next/link'
+
 export default function Homepage() {
   return (
     <>
@@ -83,6 +85,15 @@ export default function Homepage() {
               </tbody>
             </table>
 
+            <hr />
+            <div className="flex items-center justify-center gap-x-8">
+              <p>Allright - let's jumpt to the challenges!</p>
+              <Link href="/challenges">
+                <a className="rounded-md bg-indigo-500 px-5 py-3 font-medium text-white no-underline shadow hover:bg-gradient-to-t hover:from-indigo-500 hover:to-indigo-400 active:bg-gradient-to-t active:from-indigo-400 active:to-indigo-500">
+                  View challenges &rarr;
+                </a>
+              </Link>
+            </div>
             <hr />
             <h2>Hey! I'm Simon. I will be your workshop instructor. 👋</h2>
             <p>
