@@ -14,7 +14,7 @@ export default function App() {
           asperiores illo, fugiat vel optio.
         </p>
 
-        <ul className="mt-16 grid grid-cols-3 gap-12">
+        <ul className="mt-16 grid gap-12 md:grid-cols-2 xl:grid-cols-3">
           {lessons.map((lesson) => (
             <li key={lesson.name} className="relative">
               <Ribbon
