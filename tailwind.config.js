@@ -1,3 +1,5 @@
+const defaultTheme = require('tailwindcss/defaultTheme')
+
 /** @type {import('tailwindcss').Config} */
 module.exports = {
   content: [
@@ -5,7 +7,11 @@ module.exports = {
     './workshop/{exercises,solutions}/**/*.{js,jsx,ts,tsx,html}',
   ],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        sans: ['Open Sans', 'sans-serif', ...defaultTheme.fontFamily.sans],
+      },
+    },
   },
   plugins: [require('./bgStripesPlugin'), require('@tailwindcss/typography')],
 }
