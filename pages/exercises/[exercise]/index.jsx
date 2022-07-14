@@ -34,7 +34,7 @@ export default function InfoPage() {
   return (
     <div className="">
       <BackArrow />
-      <div className="mx-auto mt-20 max-w-5xl px-4 sm:px-6 lg:px-8">
+      <div className="mx-auto max-w-5xl px-4 pt-20 sm:px-6 lg:px-8">
         <div className="prose prose-indigo xl:prose-xl">
           {isValidExercise ? routesMap[exercise] : <NotFound />}
         </div>

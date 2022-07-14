@@ -5,7 +5,7 @@ export default function Homepage() {
     <>
       <div className="overflow-hidden bg-indigo-600">
         <div className="mx-auto max-w-7xl p-8">
-          <div className="py-24 lg:py-64">
+          <div className="py-24 lg:py-48">
             <div className="relative">
               <span className="absolute top-0 left-0 rounded-full bg-indigo-400 px-4 py-1 font-bold uppercase tracking-widest text-white">
                 1-day Workshop
@@ -22,7 +22,7 @@ export default function Homepage() {
       </div>
       <div>
         <div className="mx-auto max-w-7xl p-8 py-16 md:py-24 lg:py-32">
-          <div className="prose prose-indigo mx-auto max-w-prose">
+          <div className="prose prose-lg prose-indigo mx-auto max-w-prose xl:prose-xl">
             <h2>Get ready to stretch those CSS muscles!</h2>
             <p>
               In this workshop, we'll deconstruct the most interesting parts of the{' '}
@@ -84,17 +84,20 @@ export default function Homepage() {
                 </tr>
               </tbody>
             </table>
+          </div>
+        </div>
 
-            <hr />
-            <div className="flex items-center justify-center gap-x-8">
-              <p>Allright - let's jumpt to the challenges!</p>
-              <Link href="/challenges">
-                <a className="rounded-md bg-indigo-500 px-5 py-3 font-medium text-white no-underline shadow hover:bg-gradient-to-t hover:from-indigo-500 hover:to-indigo-400 active:bg-gradient-to-t active:from-indigo-400 active:to-indigo-500">
-                  View challenges &rarr;
-                </a>
-              </Link>
-            </div>
-            <hr />
+        <div className="flex items-center justify-center gap-x-8 bg-teal-500 py-20">
+          <p className="text-2xl font-bold text-white">Allright, let's jump to the challenges!</p>
+          <Link href="/challenges">
+            <a className="rounded-md bg-indigo-500 px-12 py-5 text-lg font-semibold text-white no-underline shadow hover:bg-indigo-600 active:bg-indigo-500">
+              Yeeeee ha!
+            </a>
+          </Link>
+        </div>
+
+        <div className="mx-auto max-w-7xl p-8 py-16 md:py-24 lg:py-32">
+          <div className="prose prose-lg prose-indigo mx-auto max-w-prose xl:prose-xl">
             <h2>Hey! I'm Simon. I will be your workshop instructor. 👋</h2>
             <p>
               If you've watched some YouTube videos from the Tailwind Labs channel, you've most
