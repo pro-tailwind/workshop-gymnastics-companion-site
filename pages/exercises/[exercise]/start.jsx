@@ -1,16 +1,16 @@
 import { useRouter } from 'next/router'
 
-import { HtmlSnippet } from '../../components/html-snippet'
-import { BackArrow } from '../../components/back-arrow'
-import { NotFound } from '../../components/not-found'
+import { HtmlSnippet } from '../../../components/html-snippet'
+import { BackArrow } from '../../../components/back-arrow'
+import { NotFound } from '../../../components/not-found'
 
-import animatedStripes from '../../workshop/exercises/animated-stripes/index.html'
-import backgroundSplit from '../../workshop/exercises/background-split/index.html'
-import caretCutoff from '../../workshop/exercises/caret-cutoff/index.html'
-import ribbon from '../../workshop/exercises/ribbon/index.html'
-import scrollFadeOut from '../../workshop/exercises/scroll-fade-out/index.html'
-import scrollingList from '../../workshop/exercises/scrolling-list/index.html'
-import SlideInConfirmation from '../../workshop/exercises/slide-in-confirmation'
+import animatedStripes from '../../../workshop/exercises/animated-stripes/index.html'
+import backgroundSplit from '../../../workshop/exercises/background-split/index.html'
+import caretCutoff from '../../../workshop/exercises/caret-cutoff/index.html'
+import ribbon from '../../../workshop/exercises/ribbon/index.html'
+import scrollFadeOut from '../../../workshop/exercises/scroll-fade-out/index.html'
+import scrollingList from '../../../workshop/exercises/scrolling-list/index.html'
+import SlideInConfirmation from '../../../workshop/exercises/slide-in-confirmation'
 
 const routesMap = {
   'animated-stripes': <HtmlSnippet html={animatedStripes} />,

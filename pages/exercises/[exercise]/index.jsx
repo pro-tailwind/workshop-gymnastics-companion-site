@@ -32,10 +32,10 @@ export default function InfoPage() {
 
   const isValidExercise = Object.keys(routesMap).includes(exercise)
   return (
-    <div className="relative min-h-screen overflow-hidden bg-indigo-600">
+    <div className="">
       <BackArrow />
       <div className="mx-auto mt-20 max-w-5xl px-4 sm:px-6 lg:px-8">
-        <div className="prose prose-invert prose-indigo xl:prose-xl">
+        <div className="prose prose-indigo xl:prose-xl">
           {isValidExercise ? routesMap[exercise] : <NotFound />}
         </div>
       </div>
