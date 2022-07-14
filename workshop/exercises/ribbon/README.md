@@ -1,5 +1,3 @@
-# Ribbon banner
-
 Welcome to this challenge! Blah blah blaaah.
 
 ### Challenge
@@ -22,11 +20,3 @@ If you're working with local files, here are links to the:
 
 - [Starting point (local)](/exercises/ribbon/start)
 - [Solution (local)](/solutions/ribbon)
-
----
-
-⏰ Challenge time: **15 minutes** max
-
----a
-
-**Good luck! 🤞**

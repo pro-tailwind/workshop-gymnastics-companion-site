@@ -1,13 +1,22 @@
-# Background split
+Welcome to this challenge! Blah blah blaaah.
 
-Hello, welcome to my workshop! I'm super excited to share this with you - we're going to have some fun with this one 🎉
+### Challenge
 
-All the best - really it's going to be... **nice**.
+This will be the description of the challenge, with some links to relevant, curated resources (talks, blog posts, docs).
+This should give a few pointers on how to complete the challenge, but... not too much! We want a little bit of struggle and exploration.
 
-Like, _very nice_.
+### Links
 
-See you on the other side!
+- [Figma file](https://www.figma.com/file/GyY3xq90qabr0DXDKSDtsO/Pro-Tailwind-Workshop---Advanced-Tailwind-CSS-Gymnastics?node-id=5%3A61)
+- [Tailwind Play](https://play.tailwindcss.com/h8e47lSpXO)
 
-> Oh no he didn't.
+### Extra credit
 
-Yes. Yes, I did.
+If you've completed the challenge, try create the same ribbon on the top left corner as well!
+
+### Local code snippets
+
+If you're working with local files, here are links to the:
+
+- [Starting point (local)](/exercises/background-splits/start)
+- [Solution (local)](/solutions/background-splits)
