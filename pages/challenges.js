@@ -17,7 +17,7 @@ export default function App() {
           asperiores illo, fugiat vel optio.
         </p>
 
-        <ul className="mt-16 grid gap-12 md:grid-cols-2 xl:grid-cols-3">
+        <ul className="mx-auto mt-16 grid max-w-lg gap-12 md:max-w-none md:grid-cols-2 xl:grid-cols-3">
           {lessons.map((lesson) => (
             <ChallengeCard lesson={lesson} key={lesson.name} />
           ))}
@@ -33,12 +33,12 @@ export default function App() {
 
 function ChallengeCard({ lesson }) {
   return (
-    <li className="group relative transition hover:-translate-y-0.5">
+    <li className="group relative">
       <Ribbon color={lesson.language === 'HTML' ? 'teal' : 'violet'} position="top-right">
         {lesson.language}
       </Ribbon>
 
-      <div className="w-full overflow-hidden rounded-lg bg-white shadow-md transition group-hover:shadow-xl">
+      <div className="w-full overflow-hidden rounded-lg bg-white shadow-md transition group-hover:shadow-lg">
         <img src={lesson.image} alt="" />
         <h2 className="border-t border-slate-200 p-8 text-center text-lg font-semibold text-gray-900">
           {lesson.name}

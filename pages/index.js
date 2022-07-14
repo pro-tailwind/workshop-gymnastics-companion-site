@@ -3,14 +3,21 @@ import Link from 'next/link'
 export default function Homepage() {
   return (
     <>
-      <div className="overflow-hidden bg-indigo-600">
+      {/* bg-[url('/images/handstand.png')] bg-[length:40%] bg-right-bottom bg-no-repeat */}
+      {/* Hero */}
+      <div className="relative overflow-hidden bg-indigo-600">
+        <img
+          src="/images/handstand.png"
+          alt=""
+          className="absolute bottom-0 right-1/2 w-52 max-w-xl translate-x-1/2 lg:right-12 lg:w-[42%] lg:translate-x-0"
+        />
         <div className="mx-auto max-w-7xl p-8">
-          <div className="py-24 lg:py-48">
-            <div className="relative">
-              <span className="absolute top-0 left-0 rounded-full bg-indigo-400 px-4 py-1 font-bold uppercase tracking-widest text-white">
+          <div className="pt-12 pb-48 lg:pt-48">
+            <div className="relative mx-auto max-w-xl text-center lg:mx-0 lg:max-w-2xl lg:text-left">
+              <span className="absolute top-0 left-1/2 -translate-x-1/2 rounded-full bg-indigo-400 py-1 px-4 text-xs font-bold uppercase tracking-widest text-white md:text-base lg:left-0 lg:translate-x-0">
                 1-day Workshop
               </span>
-              <h1 className="max-w-2xl pt-12 text-5xl font-black text-white lg:text-8xl">
+              <h1 className="pt-12 text-4xl font-black text-white md:text-5xl lg:max-w-2xl lg:text-7xl xl:text-8xl">
                 Tailwind CSS Gymnastics
               </h1>
               <p className="mt-4 text-lg font-semibold uppercase tracking-widest text-indigo-200 lg:mt-8">
@@ -22,8 +29,11 @@ export default function Homepage() {
       </div>
       <div>
         <div className="mx-auto max-w-7xl p-8 py-16 md:py-24 lg:py-32">
-          <div className="prose prose-lg prose-indigo mx-auto max-w-prose xl:prose-xl">
-            <h2>Get ready to stretch those CSS muscles!</h2>
+          <img src="/images/stretching.png" alt="" className="mx-auto w-24 md:w-40" />
+          <h2 className="mx-auto mt-4 max-w-4xl text-center text-3xl font-extrabold text-slate-800 md:text-5xl lg:text-6xl">
+            Get ready to stretch those CSS muscles!
+          </h2>
+          <div className="prose prose-lg prose-indigo mx-auto mt-12 max-w-prose xl:prose-xl">
             <p>
               In this workshop, we'll deconstruct the most interesting parts of the{' '}
               <a href="#">Calendar Booking App</a> and work our CSS gymnastics with some fun
