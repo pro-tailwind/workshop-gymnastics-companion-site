@@ -2,7 +2,7 @@ import Link from 'next/link'
 
 import { Ribbon } from '../../components/ribbon'
 
-import { lessons } from '../../data'
+import { lessonsMeta } from '../../data'
 
 export default function App() {
   return (
@@ -14,7 +14,7 @@ export default function App() {
         </p>
 
         <ul className="mx-auto mt-16 grid max-w-lg gap-12 md:max-w-none md:grid-cols-2 xl:grid-cols-3">
-          {lessons.map((lesson) => (
+          {lessonsMeta.map((lesson) => (
             <ChallengeCard lesson={lesson} key={lesson.name} />
           ))}
         </ul>

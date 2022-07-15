@@ -3,7 +3,7 @@ import Link from 'next/link'
 import ReactMarkdown from 'react-markdown'
 import clsx from 'clsx'
 
-import { lessonsWithSnippets } from '../../../data'
+import { lessons } from '../../../data'
 
 import { BackArrow } from '../../../components/back-arrow'
 import { NotFound } from '../../../components/not-found'
@@ -14,7 +14,7 @@ export default function ReadmePage() {
   } = useRouter()
 
   if (!slug) return ''
-  const challenge = lessonsWithSnippets.find((key) => key.slug === slug)
+  const challenge = lessons.find((key) => key.slug === slug)
   if (!challenge) return <NotFound />
 
   // From here onwards, we can assume we have a matching challenge.

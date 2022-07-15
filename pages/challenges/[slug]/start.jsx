@@ -1,6 +1,6 @@
 import { useRouter } from 'next/router'
 
-import { lessonsWithSnippets } from '../../../data'
+import { lessons } from '../../../data'
 
 import { HtmlSnippet } from '../../../components/html-snippet'
 import { BackArrow } from '../../../components/back-arrow'
@@ -11,7 +11,7 @@ export default function StartSnippetsPage() {
     query: { slug },
   } = useRouter()
   if (!slug) return ''
-  const challenge = lessonsWithSnippets.find((lesson) => lesson.slug === slug)
+  const challenge = lessons.find((lesson) => lesson.slug === slug)
   if (!challenge) return <NotFound />
   const Snippet = challenge.startSnippet
   return (

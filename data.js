@@ -30,6 +30,9 @@ export const lessons = [
     image: '/images/thumbnails/ribbon.jpg',
     duration: '15 minutes',
     difficulty: 'mild',
+    readmeMarkdown: ribbonMarkdown,
+    startSnippet: ribbonStart,
+    solutionSnippet: ribbonSolution,
   },
   {
     name: 'Background split',
@@ -38,6 +41,9 @@ export const lessons = [
     image: '/images/thumbnails/background-split.jpg',
     duration: '30 minutes',
     difficulty: 'mild',
+    readmeMarkdown: backgroundSplitMarkdown,
+    startSnippet: backgroundSplitStart,
+    solutionSnippet: backgroundSplitSolution,
   },
   {
     name: 'Caret cutoff',
@@ -46,6 +52,9 @@ export const lessons = [
     image: '/images/thumbnails/caret-cutoff.jpg',
     duration: '20 minutes',
     difficulty: 'spicy',
+    readmeMarkdown: caretCutoffMarkdown,
+    startSnippet: caretCutoffStart,
+    solutionSnippet: caretCutoffSolution,
   },
   {
     name: 'Scrolling fade-out list',
@@ -54,6 +63,9 @@ export const lessons = [
     image: '/images/thumbnails/scroll-list.jpg',
     duration: '25 minutes',
     difficulty: 'mild',
+    readmeMarkdown: scrollFadeoutListMarkdown,
+    startSnippet: scrollFadeoutListStart,
+    solutionSnippet: scrollFadeoutListSolution,
   },
   {
     name: 'Animated stripes',
@@ -62,6 +74,9 @@ export const lessons = [
     image: '/images/thumbnails/animated-stripes.jpg',
     duration: '35 minutes',
     difficulty: 'hot',
+    readmeMarkdown: animatedStripesMarkdown,
+    startSnippet: animatedStripesStart,
+    solutionSnippet: animatedStripesSolution,
   },
   {
     name: 'Slide-in confirmation',
@@ -70,44 +85,13 @@ export const lessons = [
     image: '/images/thumbnails/slide-in-confirmation.jpg',
     duration: '33 minutes',
     difficulty: 'spicy',
-  },
-]
-
-export const lessonsWithSnippets = [
-  {
-    ...lessons[0],
-    readmeMarkdown: ribbonMarkdown,
-    startSnippet: ribbonStart,
-    solutionSnippet: ribbonSolution,
-  },
-  {
-    ...lessons[1],
-    readmeMarkdown: backgroundSplitMarkdown,
-    startSnippet: backgroundSplitStart,
-    solutionSnippet: backgroundSplitSolution,
-  },
-  {
-    ...lessons[2],
-    readmeMarkdown: caretCutoffMarkdown,
-    startSnippet: caretCutoffStart,
-    solutionSnippet: caretCutoffSolution,
-  },
-  {
-    ...lessons[3],
-    readmeMarkdown: scrollFadeoutListMarkdown,
-    startSnippet: scrollFadeoutListStart,
-    solutionSnippet: scrollFadeoutListSolution,
-  },
-  {
-    ...lessons[4],
-    readmeMarkdown: animatedStripesMarkdown,
-    startSnippet: animatedStripesStart,
-    solutionSnippet: animatedStripesSolution,
-  },
-  {
-    ...lessons[5],
     readmeMarkdown: slideInConfirmationMarkdown,
     startSnippet: SlideInConfirmationStart,
     solutionSnippet: SlideInConfirmationSolution,
   },
 ]
+
+export const lessonsMeta = lessons.map((lesson) => {
+  const { readmeMarkdown, startSnippet, solutionSnippet, ...meta } = lesson
+  return meta
+})

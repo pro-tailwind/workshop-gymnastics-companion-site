@@ -3,7 +3,6 @@ import Link from 'next/link'
 export default function Homepage() {
   return (
     <>
-      {/* bg-[url('/images/handstand.png')] bg-[length:40%] bg-right-bottom bg-no-repeat */}
       {/* Hero */}
       <div className="relative overflow-hidden bg-indigo-600">
         <img
