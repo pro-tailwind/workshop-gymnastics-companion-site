@@ -238,7 +238,7 @@ function AboutMe() {
         </p>
 
         <p>
-          Oh, and I recently started a podcast with my new friend Jon Myers - it's called{' '}
+          Oh, and I recently started a podcast with my new friend Jon Meyers - it's called{' '}
           <code>The NavBar</code>, you should check it out!
         </p>
         <p>
