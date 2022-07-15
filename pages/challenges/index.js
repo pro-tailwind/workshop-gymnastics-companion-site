@@ -7,7 +7,7 @@ import { lessonsMeta } from '../../data'
 
 export default function App() {
   return (
-    <div className="min-h-screen overflow-hidden bg-slate-100">
+    <div className="h-full overflow-hidden bg-slate-100">
       <div className="mx-auto mt-24 max-w-7xl p-8">
         <h1 className="text-4xl font-bold text-slate-900">
           Workshop – Pro Tailwind CSS Gymnastics
