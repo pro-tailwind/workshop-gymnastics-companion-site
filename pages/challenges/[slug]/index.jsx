@@ -27,15 +27,15 @@ export default function ReadmePage() {
   const difficultyMap = {
     mild: {
       emoji: '🌶',
-      classes: 'bg-emerald-200 text-emerald-600',
+      classes: 'bg-emerald-200 text-emerald-700',
     },
     hot: {
       emoji: '🌶🌶',
-      classes: 'bg-orange-200 text-orange-600',
+      classes: 'bg-orange-100 text-orange-600',
     },
     spicy: {
       emoji: '🌶🌶🌶',
-      classes: 'bg-red-200 text-red-600',
+      classes: 'bg-red-100 text-red-600',
     },
   }
 
@@ -63,7 +63,7 @@ export default function ReadmePage() {
                   <span>{challenge.difficulty}</span>
                 </li>
                 {/* Timebox */}
-                <li className="flex gap-3 rounded bg-indigo-200 px-2.5 py-1.5 font-bold text-indigo-600">
+                <li className="flex gap-3 rounded bg-indigo-100 px-2.5 py-1.5 font-bold text-indigo-600">
                   <span>⏰</span>
                   <span>{challenge.duration}</span>
                 </li>
