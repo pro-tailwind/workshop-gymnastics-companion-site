@@ -1,5 +1,7 @@
 import Link from 'next/link'
 import Image from 'next/future/image'
+import clsx from 'clsx'
+
 import heroImage from '../public/images/handstand.png'
 import introImage from '../public/images/stretching.png'
 
@@ -31,71 +33,43 @@ export default function Homepage() {
       </div>
       <div>
         <div className="mx-auto max-w-7xl p-8 py-16 md:py-24 lg:py-32">
-          <Image src={introImage} alt="" className="mx-auto w-24 md:w-40" />
-          <h2 className="mx-auto mt-4 max-w-4xl text-center text-3xl font-extrabold text-slate-800 md:text-5xl lg:text-6xl">
-            Get ready to stretch those CSS muscles!
-          </h2>
-          <div className="prose prose-lg prose-indigo mx-auto mt-12 max-w-prose xl:prose-xl">
+          <div className="prose prose-lg prose-indigo mx-auto max-w-prose xl:prose-xl">
+            <Image src={introImage} alt="" className="w-24 md:w-40" />
+            <h2>Get ready to stretch those CSS muscles!</h2>
             <p>
-              In this workshop, we'll deconstruct the most interesting parts of the{' '}
-              <a href="#">Calendar Booking App</a> and work our CSS gymnastics with some fun
-              challenges!
+              Together, we'll deconstruct interesting parts of the{' '}
+              <a href="https://protailwind-workshop-starter-app.vercel.app/">
+                Calendar Booking App
+              </a>{' '}
+              and work our CSS gymnastics with some fun challenges!
             </p>
             <p>
-              Before we get started, let's take a look at the workshop format and do some quick
-              housekeeping.
+              I think you're in for a good time. But before we get started, let's go over some
+              formalities and housekeeping around the workshop.
             </p>
 
             <hr />
-            <h2>Workshop timetable</h2>
-            <table className="-mx-2 border-separate border-spacing-2">
-              <thead>
-                <tr>
-                  <th className="text-left">Time</th>
-                  <th className="text-left">What</th>
-                  <th className="text-left">Length</th>
-                  <th className="text-left">Topic</th>
-                </tr>
-              </thead>
-              <tbody>
-                <tr>
-                  <td>1:00 PM - 1:15 PM</td>
-                  <td>Intro</td>
-                  <td>15 min</td>
-                  <td>Meet & Greet, Housekeeping</td>
-                </tr>
-                <tr>
-                  <td>1:15 PM - 2:15 PM</td>
-                  <td>Content</td>
-                  <td>60 min</td>
-                  <td>Tailwind CSS challenges part 1</td>
-                </tr>
-                <tr className="text-teal-500">
-                  <td>2:15 PM - 2:30 PM</td>
-                  <td>Break</td>
-                  <td>15 min</td>
-                  <td>Coffee/Snacks</td>
-                </tr>
-                <tr>
-                  <td>2:30 PM - 3:45 PM</td>
-                  <td>Content</td>
-                  <td>75 min</td>
-                  <td>Tailwind CSS challenges part 2</td>
-                </tr>
-                <tr className="text-teal-500">
-                  <td>3:45 PM - 4:00 PM</td>
-                  <td>Break</td>
-                  <td>15 min</td>
-                  <td>Coffee/Snacks</td>
-                </tr>
-                <tr>
-                  <td>4:00 PM - 5:00 PM</td>
-                  <td>Content</td>
-                  <td>60 min</td>
-                  <td>Tailwind CSS challenges part 3</td>
-                </tr>
-              </tbody>
-            </table>
+            <h2>What and when?</h2>
+            <p>Here's the timetable for today's workshop.</p>
+
+            <Timetable />
+            <hr />
+            <h2>Focus groups & breakout rooms</h2>
+            <p>
+              You'll be split in small focus groups for today's workshop challenges. This consists
+              of separate "breakout rooms", where each member of the group will take turns "driving"
+              a challenge by sharing their screen.
+            </p>
+            <p>The groups will remain the same for the entire workshop.</p>
+            <p>
+              At the end of challenges, we'll all come back together to discuss. "Pairing" in small
+              groups and actively participating to group discusions are key to this workshop.
+              They'll help you maximise your learning experience.
+            </p>
+            <p>
+              I really encourage everyone to participate actively, ask questions, and of course be
+              supportive of one another!
+            </p>
           </div>
         </div>
 
@@ -137,5 +111,127 @@ export default function Homepage() {
         </div>
       </div>
     </>
+  )
+}
+
+// ------------------------------
+// Implementation components
+// ------------------------------
+
+const program = [
+  {
+    time: '1:00 PM - 1:15 PM',
+    what: 'housekeeping',
+    duration: '15 min',
+    topic: 'Meet & Greet, Housekeeping',
+  },
+  {
+    time: '1:15 PM - 2:15 PM',
+    what: 'content',
+    duration: '60 min',
+    topic: 'Tailwind CSS challenges part 1',
+  },
+  {
+    time: '2:15 PM - 2:30 PM',
+    what: 'break',
+    duration: '15 min',
+    topic: 'Coffee/Snacks',
+  },
+  {
+    time: '2:30 PM - 3:45 PM',
+    what: 'content',
+    duration: '75 min',
+    topic: 'Tailwind CSS challenges part 2',
+  },
+  {
+    time: '3:45 PM - 4:00 PM',
+    what: 'break',
+    duration: '15 min',
+    topic: 'Coffee/Snacks',
+  },
+  {
+    time: '4:00 PM - 5:00 PM',
+    what: 'content',
+    duration: '60 min',
+    topic: 'Tailwind CSS challenges part 3',
+  },
+]
+
+function Timetable() {
+  return (
+    <div className="not-prose mt-8 flex flex-col text-left">
+      <div className="-my-2 -mx-4 overflow-x-auto sm:-mx-6 lg:-mx-8">
+        <div className="inline-block min-w-full py-2 align-middle md:px-6 lg:px-8">
+          <table className="min-w-full divide-y-2 divide-teal-500">
+            <thead>
+              <tr>
+                <th
+                  scope="col"
+                  className="py-3.5 pl-4 pr-3 text-left text-base font-semibold text-slate-900"
+                >
+                  Time
+                </th>
+                <th
+                  scope="col"
+                  className="py-3.5 px-3 text-left text-base font-semibold text-slate-900"
+                >
+                  What?
+                </th>
+                <th
+                  scope="col"
+                  className="py-3.5 px-3 text-left text-base font-semibold text-slate-900"
+                >
+                  Duration
+                </th>
+                <th
+                  scope="col"
+                  className="py-3.5 px-3 text-left text-base font-semibold text-slate-900"
+                >
+                  Topic
+                </th>
+              </tr>
+            </thead>
+            <tbody className="divide-y divide-slate-200">
+              {program.map((entry, index) => (
+                <tr key={index} className={clsx(entry.what === 'break' && 'bg-teal-100/50')}>
+                  <td
+                    className={clsx(
+                      'whitespace-nowrap py-4 pl-4 pr-3 text-base font-medium',
+                      entry.what === 'break' ? 'text-teal-900' : 'text-slate-900'
+                    )}
+                  >
+                    {entry.time}
+                  </td>
+                  <td
+                    className={clsx(
+                      'whitespace-nowrap py-4 px-3 text-base',
+                      entry.what === 'break' ? 'font-medium text-teal-600' : 'text-slate-500'
+                    )}
+                  >
+                    {entry.what}
+                  </td>
+                  <td
+                    className={clsx(
+                      'whitespace-nowrap py-4 px-3 text-base',
+                      entry.what === 'break' ? 'font-medium text-teal-600' : 'text-slate-500'
+                    )}
+                  >
+                    {entry.duration}
+                  </td>
+                  <td
+                    className={clsx(
+                      'whitespace-nowrap py-4 pl-3 pr-4 text-base font-medium text-slate-900 sm:pr-6 md:pr-0',
+                      entry.what === 'break' ? 'text-teal-900' : 'text-slate-900'
+                    )}
+                  >
+                    {entry.topic}
+                  </td>
+                </tr>
+              ))}
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
   )
 }

@@ -28,14 +28,14 @@ import backgroundSplitImage from './public/images/thumbnails/background-split.jp
 import caretCutoffImage from './public/images/thumbnails/caret-cutoff.jpg'
 import ribbonImage from './public/images/thumbnails/ribbon.jpg'
 import scrollFadeoutListImage from './public/images/thumbnails/scroll-fadeout-list.jpg'
-import SlideInConfirmationImage from './public/images/thumbnails/slide-in-confirmation.jpg'
+import slideInConfirmationImage from './public/images/thumbnails/slide-in-confirmation.jpg'
 
 export const lessons = [
   {
     name: 'Ribbon banner',
     slug: 'ribbon',
     language: 'HTML',
-    image: animatedStripesImage,
+    image: ribbonImage,
     duration: '15 minutes',
     difficulty: 'mild',
     readmeMarkdown: ribbonMarkdown,
@@ -47,7 +47,7 @@ export const lessons = [
     slug: 'background-split',
     language: 'HTML',
     image: backgroundSplitImage,
-    duration: '30 minutes',
+    duration: '15 minutes',
     difficulty: 'mild',
     readmeMarkdown: backgroundSplitMarkdown,
     startSnippet: backgroundSplitStart,
@@ -68,8 +68,8 @@ export const lessons = [
     name: 'Scrolling fade-out list',
     slug: 'scroll-fadeout-list',
     language: 'HTML',
-    image: ribbonImage,
-    duration: '25 minutes',
+    image: scrollFadeoutListImage,
+    duration: '20 minutes',
     difficulty: 'mild',
     readmeMarkdown: scrollFadeoutListMarkdown,
     startSnippet: scrollFadeoutListStart,
@@ -79,8 +79,8 @@ export const lessons = [
     name: 'Animated stripes',
     slug: 'animated-stripes',
     language: 'HTML',
-    image: scrollFadeoutListImage,
-    duration: '35 minutes',
+    image: animatedStripesImage,
+    duration: '25 minutes',
     difficulty: 'hot',
     readmeMarkdown: animatedStripesMarkdown,
     startSnippet: animatedStripesStart,
@@ -90,8 +90,8 @@ export const lessons = [
     name: 'Slide-in confirmation',
     slug: 'slide-in-confirmation',
     language: 'JSX',
-    image: SlideInConfirmationImage,
-    duration: '33 minutes',
+    image: slideInConfirmationImage,
+    duration: '20 minutes',
     difficulty: 'spicy',
     readmeMarkdown: slideInConfirmationMarkdown,
     startSnippet: SlideInConfirmationStart,
