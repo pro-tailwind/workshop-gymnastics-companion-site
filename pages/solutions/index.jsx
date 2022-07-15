@@ -1,4 +1,5 @@
 import Link from 'next/link'
+import Image from 'next/future/image'
 
 import { Ribbon } from '../../components/ribbon'
 
@@ -35,7 +36,7 @@ function ChallengeCard({ lesson }) {
       </Ribbon>
 
       <div className="w-full overflow-hidden rounded-lg bg-white shadow-md transition group-hover:shadow-lg">
-        <img src={lesson.image} alt="" />
+        <Image src={lesson.image} alt="" />
         <h2 className="border-t border-slate-200 p-8 text-center text-lg font-semibold text-gray-900">
           {lesson.name}
         </h2>

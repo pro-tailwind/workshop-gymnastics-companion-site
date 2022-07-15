@@ -22,12 +22,20 @@ import ribbonSolution from './workshop/solutions/ribbon/index.html'
 import scrollFadeoutListSolution from './workshop/solutions/scroll-fadeout-list/index.html'
 import SlideInConfirmationSolution from './workshop/solutions/slide-in-confirmation'
 
+// Images
+import animatedStripesImage from './public/images/thumbnails/animated-stripes.jpg'
+import backgroundSplitImage from './public/images/thumbnails/background-split.jpg'
+import caretCutoffImage from './public/images/thumbnails/caret-cutoff.jpg'
+import ribbonImage from './public/images/thumbnails/ribbon.jpg'
+import scrollFadeoutListImage from './public/images/thumbnails/scroll-fadeout-list.jpg'
+import SlideInConfirmationImage from './public/images/thumbnails/slide-in-confirmation.jpg'
+
 export const lessons = [
   {
     name: 'Ribbon banner',
     slug: 'ribbon',
     language: 'HTML',
-    image: '/images/thumbnails/ribbon.jpg',
+    image: animatedStripesImage,
     duration: '15 minutes',
     difficulty: 'mild',
     readmeMarkdown: ribbonMarkdown,
@@ -38,7 +46,7 @@ export const lessons = [
     name: 'Background split',
     slug: 'background-split',
     language: 'HTML',
-    image: '/images/thumbnails/background-split.jpg',
+    image: backgroundSplitImage,
     duration: '30 minutes',
     difficulty: 'mild',
     readmeMarkdown: backgroundSplitMarkdown,
@@ -49,7 +57,7 @@ export const lessons = [
     name: 'Caret cutoff',
     slug: 'caret-cutoff',
     language: 'HTML',
-    image: '/images/thumbnails/caret-cutoff.jpg',
+    image: caretCutoffImage,
     duration: '20 minutes',
     difficulty: 'spicy',
     readmeMarkdown: caretCutoffMarkdown,
@@ -60,7 +68,7 @@ export const lessons = [
     name: 'Scrolling fade-out list',
     slug: 'scroll-fadeout-list',
     language: 'HTML',
-    image: '/images/thumbnails/scroll-list.jpg',
+    image: ribbonImage,
     duration: '25 minutes',
     difficulty: 'mild',
     readmeMarkdown: scrollFadeoutListMarkdown,
@@ -71,7 +79,7 @@ export const lessons = [
     name: 'Animated stripes',
     slug: 'animated-stripes',
     language: 'HTML',
-    image: '/images/thumbnails/animated-stripes.jpg',
+    image: scrollFadeoutListImage,
     duration: '35 minutes',
     difficulty: 'hot',
     readmeMarkdown: animatedStripesMarkdown,
@@ -82,7 +90,7 @@ export const lessons = [
     name: 'Slide-in confirmation',
     slug: 'slide-in-confirmation',
     language: 'JSX',
-    image: '/images/thumbnails/slide-in-confirmation.jpg',
+    image: SlideInConfirmationImage,
     duration: '33 minutes',
     difficulty: 'spicy',
     readmeMarkdown: slideInConfirmationMarkdown,

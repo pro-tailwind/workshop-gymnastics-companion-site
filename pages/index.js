@@ -1,12 +1,15 @@
 import Link from 'next/link'
+import Image from 'next/future/image'
+import heroImage from '../public/images/handstand.png'
+import introImage from '../public/images/stretching.png'
 
 export default function Homepage() {
   return (
     <>
       {/* Hero */}
       <div className="relative overflow-hidden bg-indigo-600">
-        <img
-          src="/images/handstand.png"
+        <Image
+          src={heroImage}
           alt=""
           className="absolute bottom-0 right-1/2 w-52 max-w-xl translate-x-1/2 lg:right-12 lg:w-[42%] lg:translate-x-0"
         />
@@ -28,7 +31,7 @@ export default function Homepage() {
       </div>
       <div>
         <div className="mx-auto max-w-7xl p-8 py-16 md:py-24 lg:py-32">
-          <img src="/images/stretching.png" alt="" className="mx-auto w-24 md:w-40" />
+          <Image src={introImage} alt="" className="mx-auto w-24 md:w-40" />
           <h2 className="mx-auto mt-4 max-w-4xl text-center text-3xl font-extrabold text-slate-800 md:text-5xl lg:text-6xl">
             Get ready to stretch those CSS muscles!
           </h2>

@@ -2,6 +2,11 @@
 const nextConfig = {
   reactStrictMode: true,
   swcMinify: true,
+  experimental: {
+    images: {
+      allowFutureImage: true,
+    },
+  },
   webpack: (config) => {
     config.module.rules.push(
       {

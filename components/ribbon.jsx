@@ -5,13 +5,13 @@ export function Ribbon({ color, position, children }) {
     violet: {
       bg: 'bg-violet-500',
       backdrop: 'bg-violet-600',
-      border: 'border-violet-200',
+      border: 'border-violet-300',
       text: 'text-violet-100',
     },
     teal: {
       bg: 'bg-teal-500',
       backdrop: 'bg-teal-600',
-      border: 'border-teal-200',
+      border: 'border-teal-300',
       text: 'text-teal-100',
     },
   }[color]

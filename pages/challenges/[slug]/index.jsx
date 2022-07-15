@@ -1,5 +1,6 @@
 import { useRouter } from 'next/router'
 import Link from 'next/link'
+import Image from 'next/future/image'
 import ReactMarkdown from 'react-markdown'
 import clsx from 'clsx'
 
@@ -46,7 +47,7 @@ export default function ReadmePage() {
       <div className="py-8 md:py-16 lg:py-32">
         <div className="mx-auto mt-20 max-w-5xl px-4 sm:px-6 lg:px-8">
           <div className="flex flex-col items-center gap-8">
-            <img
+            <Image
               src={challenge.image}
               alt={challenge.name}
               className="w-full max-w-lg rounded-xl shadow-2xl"
