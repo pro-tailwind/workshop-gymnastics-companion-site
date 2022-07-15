@@ -210,32 +210,44 @@ function AboutMe() {
   return (
     <div className="mx-auto max-w-7xl p-8 py-16 md:py-24 lg:py-32">
       <div className="group prose prose-lg prose-indigo mx-auto max-w-prose xl:prose-xl">
-        <h2>Hey! I'm Simon. I will be your workshop instructor. 👋</h2>
+        <h2>Aaaand... who are you?</h2>
+
+        <p>I'm Simon, your workshop instructor. 👋</p>
         <p>
           If you've watched some YouTube videos from the Tailwind Labs channel, you've most probably
           seen my face already!
         </p>
         <p>
           I love utility-first CSS. I've been supporting and promoting this styling approach even
-          before Tailwind CSS existed! I'm a front-end developer, designer and content creator. I
-          bring a lot of entusiasm and positive energy in everything I do, this is just how I'm
+          before Tailwind CSS existed! I'm a front-end developer, designer and content creator.
+        </p>
+
+        <p>
+          I bring a lot of entusiasm and positive energy in everything I do, this is just how I'm
           wired up!
         </p>
 
         <p>
-          I think I'm really good at teaching stuff, and make people excited to learn new things. I
-          have been teaching in-person workshops for multiple senior engineering teams, and a
-          constant piece of feedback I get is my workshops are exciting, fun and engaging. And to
-          me, that's the best way to learn!
+          I have been teaching in-person workshops for multiple senior engineering teams, and a
+          constant piece of feedback I get is my workshops are exciting, fun and engaging. To me,
+          that's the best way to learn!
+        </p>
+        <p>
+          I sometimes speak at conferences and meetups. I make YouTube videos and I'm also an
+          instructor on <a href="https://egghead.io">egghead.io</a>
         </p>
 
         <p>
-          I've been speaking at conferences, meetups, and I'm also an instructor on egghead.io Oh,
-          and I recently started a podcast with my new friend Jon Myers - it's called The NavBar,
-          you should check it out! You can connect with me on Twitter, I'm{' '}
-          <a href="https://twitter.com/simonswiss">simonswiss</a>.
+          Oh, and I recently started a podcast with my new friend Jon Myers - it's called The
+          NavBar, you should check it out!
         </p>
-        <p>I'm super excited to dive into this workshop with you.</p>
+        <p>
+          You can connect with me on Twitter, I'm{' '}
+          <a href="https://twitter.com/simonswiss">simonswiss</a> 🇨🇭
+        </p>
+        <p>
+          I'm <strong>super excited</strong> to dive into this workshop with you.
+        </p>
 
         <svg
           className="mt-6 w-56 text-indigo-600"
