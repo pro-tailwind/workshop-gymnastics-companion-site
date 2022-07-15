@@ -97,14 +97,20 @@ export default function Homepage() {
           </div>
         </div>
 
-        <div className="flex items-center justify-center gap-x-8 bg-teal-500 py-20">
+        <Link href="/challenges">
+          <a className="block bg-indigo-600 py-16 text-center text-2xl font-bold text-white transition hover:bg-teal-500 lg:py-24">
+            Allright. Let's jump to the challenges! &rarr;
+          </a>
+        </Link>
+
+        {/* <div className="flex items-center justify-center gap-x-8 bg-indigo-600 py-20">
           <p className="text-2xl font-bold text-white">Allright, let's jump to the challenges!</p>
           <Link href="/challenges">
-            <a className="rounded-md bg-indigo-500 px-12 py-5 text-lg font-semibold text-white no-underline shadow hover:bg-indigo-600 active:bg-indigo-500">
+            <a className="rounded-md bg-indigo-500 px-12 py-5 text-lg font-semibold text-white no-underline shadow hover:bg-indigo-400 active:bg-indigo-500">
               Yeeeee ha!
             </a>
           </Link>
-        </div>
+        </div> */}
 
         <div className="mx-auto max-w-7xl p-8 py-16 md:py-24 lg:py-32">
           <div className="prose prose-lg prose-indigo mx-auto max-w-prose xl:prose-xl">

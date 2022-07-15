@@ -13,10 +13,3 @@ This should give a few pointers on how to complete the challenge, but... not too
 ### Extra credit
 
 If you've completed the challenge, try create the same ribbon on the top left corner as well!
-
-### Local code snippets
-
-If you're working with local files, here are links to the:
-
-- [Starting point (local)](/exercises/background-splits/start)
-- [Solution (local)](/solutions/background-splits)

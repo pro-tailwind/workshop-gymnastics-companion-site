@@ -29,7 +29,7 @@ export default function App() {
                   {lesson.name}
                 </h2>
                 <div className="grid w-full grid-cols-2 divide-x border-t">
-                  <Link href={`/exercises/${lesson.folder}`}>
+                  <Link href={`/challenges/${lesson.folder}`}>
                     <a className="grid place-items-center py-8 font-medium text-gray-900 hover:bg-teal-300 hover:text-teal-900 hover:underline">
                       Exercise
                     </a>

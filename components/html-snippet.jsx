@@ -1,3 +1,3 @@
 export function HtmlSnippet({ html }) {
-  return <div dangerouslySetInnerHTML={{ __html: html }} />
+  return <div className="h-full" dangerouslySetInnerHTML={{ __html: html }} />
 }

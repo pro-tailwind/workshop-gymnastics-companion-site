@@ -2,7 +2,7 @@ import Link from 'next/link'
 
 export function Navbar() {
   return (
-    <div className="flex items-center justify-between bg-indigo-600 px-8 py-6">
+    <div className="z-10 flex items-center justify-between border-b-2 border-indigo-700 bg-indigo-600 px-8 py-6">
       <Link href="/">
         <a className="group flex items-center gap-4">
           <svg
@@ -56,7 +56,7 @@ export function Navbar() {
       </Link>
       <nav className="hidden gap-6 md:flex">
         <NavLink link={{ name: 'CSS Challenges', path: '/challenges' }} />
-        <NavLink link={{ name: 'Other workshops', path: '/solutions' }} />
+        <NavLink link={{ name: 'Solutions', path: '/solutions' }} />
       </nav>
     </div>
   )

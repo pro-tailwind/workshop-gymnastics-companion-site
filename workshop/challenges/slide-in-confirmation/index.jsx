@@ -7,7 +7,7 @@ export default function SlideInConfirmation() {
   const [selectedTime, setSelectedTime] = useState(null)
 
   return (
-    <div className="min-h-screen bg-indigo-600">
+    <div className="h-full bg-indigo-600">
       <div className="mx-auto w-full max-w-lg p-16">
         <div className="mx-4 rounded-2xl bg-white p-8 shadow-2xl">
           <h2 className="text-xl font-medium">Tuesday, 28th June 2022</h2>

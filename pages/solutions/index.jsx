@@ -1,20 +1,16 @@
 import Link from 'next/link'
 
-import { Ribbon } from '../components/ribbon'
+import { Ribbon } from '../../components/ribbon'
 
-import { lessons } from '../data'
+import { lessons } from '../../data'
 
 export default function App() {
   return (
     <div className="min-h-screen overflow-hidden bg-slate-100">
       <div className="mx-auto mt-24 max-w-7xl p-8">
-        <h1 className="text-4xl font-bold text-slate-900">
-          Workshop – Pro Tailwind CSS Gymnastics
-        </h1>
+        <h1 className="text-4xl font-bold text-slate-900">Challenge solutions</h1>
         <p className="mt-6 max-w-prose text-lg font-medium text-slate-600">
-          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Doloribus, sed animi recusandae
-          consequuntur quis et eveniet nulla. Maxime mollitia eaque harum quasi molestiae, nihil ab,
-          asperiores illo, fugiat vel optio.
+          Here are how your solution should look at the end of your implementation.
         </p>
 
         <ul className="mx-auto mt-16 grid max-w-lg gap-12 md:max-w-none md:grid-cols-2 xl:grid-cols-3">
@@ -44,7 +40,7 @@ function ChallengeCard({ lesson }) {
           {lesson.name}
         </h2>
       </div>
-      <Link href={`/challenges/${lesson.slug}`}>
+      <Link href={`/solutions/${lesson.slug}`}>
         <a className="absolute inset-0"></a>
       </Link>
     </li>
