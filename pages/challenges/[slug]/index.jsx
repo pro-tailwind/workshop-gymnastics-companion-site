@@ -75,7 +75,7 @@ export default function ReadmePage() {
             <ReactMarkdown>{challenge.readmeMarkdown}</ReactMarkdown>
 
             <hr />
-            <h3>Local code snippets</h3>
+            <h3>🏠 Local code snippets</h3>
             <p>If you're working with local files, here are links to the:</p>
 
             <ul>
@@ -89,7 +89,7 @@ export default function ReadmePage() {
                   <a>Solution (local)</a>
                 </Link>
                 <span className="ml-3 text-sm text-slate-500">
-                  Hey! Try not look at the solution before you struggle a bit.
+                  Hey! Try not look at the code solution's code implementation too early.
                 </span>
               </li>
             </ul>
