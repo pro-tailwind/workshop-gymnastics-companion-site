@@ -72,29 +72,23 @@ export default function ReadmePage() {
           </div>
           <div className="prose prose-indigo mx-auto mt-12 xl:prose-xl">
             <hr />
+
+            <p>
+              Demos:
+              <nav className="inline divide-x pl-4">
+                <Link href={`/challenges/${challenge.slug}/start`}>
+                  <a className="pr-4">Start</a>
+                </Link>
+                <Link href={`/solutions/${challenge.slug}`}>
+                  <a className="pl-4">Finish</a>
+                </Link>
+              </nav>
+            </p>
+
             <ReactMarkdown>{challenge.readmeMarkdown}</ReactMarkdown>
 
             <hr />
-            <h3>🏠 Local code snippets</h3>
-            <p>If you're working with local files, here are links to the:</p>
 
-            <ul>
-              <li>
-                <Link href={`/challenges/${challenge.slug}/start`}>
-                  <a>Starting point (local)</a>
-                </Link>
-              </li>
-              <li>
-                <Link href={`/solutions/${challenge.slug}`}>
-                  <a>Solution (local)</a>
-                </Link>
-                <span className="ml-3 text-sm text-slate-500">
-                  Hey! Try not look at the code solution's code implementation too early.
-                </span>
-              </li>
-            </ul>
-
-            <hr />
             <p>
               <strong>Good luck everybody! 🤞</strong>
             </p>

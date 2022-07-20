@@ -174,7 +174,7 @@ function Timetable() {
                   </td>
                   <td
                     className={clsx(
-                      'whitespace-nowrap py-4 px-3 text-base',
+                      'whitespace-nowrap py-4 px-3 text-base capitalize',
                       entry.what === 'break' ? 'font-medium text-teal-600' : 'text-slate-500'
                     )}
                   >

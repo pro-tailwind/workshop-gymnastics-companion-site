@@ -65,7 +65,7 @@ export const lessons = [
     solutionSnippet: caretCutoffSolution,
   },
   {
-    name: 'Scrolling fade-out list',
+    name: 'Scroll fade-out list',
     slug: 'scroll-fadeout-list',
     language: 'HTML',
     image: scrollFadeoutListImage,
