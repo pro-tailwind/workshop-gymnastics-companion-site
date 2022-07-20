@@ -50,7 +50,7 @@ export default function ReadmePage() {
             <Image
               src={challenge.image}
               alt={challenge.name}
-              className="w-full max-w-lg rounded-xl shadow-2xl"
+              className="w-full max-w-2xl rounded-xl shadow-2xl"
             />
             <div>
               <h1 className="text-center text-4xl font-bold">
