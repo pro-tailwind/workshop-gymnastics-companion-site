@@ -55,7 +55,7 @@ export function Navbar() {
         </a>
       </Link>
       <nav className="hidden gap-6 md:flex">
-        <NavLink link={{ name: 'CSS Challenges', path: '/challenges' }} />
+        <NavLink link={{ name: 'Challenges', path: '/challenges' }} />
         <NavLink link={{ name: 'Solutions', path: '/solutions' }} />
       </nav>
     </div>
