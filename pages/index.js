@@ -201,7 +201,7 @@ function AboutMe() {
         </p>
 
         <p>
-          I bring a lot of entusiasm and positive energy in everything I do, this is just how I'm
+          I bring a lot of enthusiasm and positive energy in everything I do, this is just how I'm
           wired up!
         </p>
 
