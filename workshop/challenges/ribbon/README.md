@@ -1,7 +1,14 @@
 ### 🎯 Challenge
 
-This will be the description of the challenge, with some links to relevant, curated resources (talks, blog posts, docs).
-This should give a few pointers on how to complete the challenge, but... not too much! We want a little bit of struggle and exploration.
+This ribbon banner has some surprisingly sneaky bits to it. When prototyping it, I always found myslef reaching for "magic numbers", to nudge the ribbon into the right place.
+
+There are definitely multiple ways to solve this, and I'm looking forward to see what approach you'll take.
+
+Make sure you collaborate on this, because there are quite a few creative ideas that can help!
+
+If you're stuck - don't worry! Struggling for a bit is good. I'll drop some hints, jump in your breakout room answer questions if you need help.
+
+When the time is up, I'll walk everyone through my implementation, and we'll review and discuss what other groups came up with.
 
 ---
 
@@ -17,6 +24,8 @@ This should give a few pointers on how to complete the challenge, but... not too
 If you've completed the challenge, try create the same ribbon on the top left corner as well!
 
 This should expose a few interesting points you'd consider if you were to create a re-usable Ribbon component with custom parameters.
+
+- [Tailwind Play solution](https://play.tailwindcss.com/njxuJngBjj)
 
 ---
 
