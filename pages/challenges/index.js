@@ -1,30 +1,29 @@
 import Link from 'next/link'
 import Image from 'next/future/image'
 
+import { PageContainer } from '../../components/page-container'
+import { PageHeading } from '../../components/page-heading'
+
 import { Ribbon } from '../../components/ribbon'
 
 import { lessonsMeta } from '../../data'
 
 export default function App() {
   return (
-    <div className="h-full overflow-hidden bg-slate-100">
-      <div className="mx-auto mt-24 max-w-7xl p-8">
-        <h1 className="text-4xl font-bold text-slate-900">
-          Workshop – Pro Tailwind CSS Gymnastics
-        </h1>
-        <p className="mt-6 max-w-prose text-lg font-medium text-slate-600">
-          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Doloribus, sed animi recusandae
-          consequuntur quis et eveniet nulla. Maxime mollitia eaque harum quasi molestiae, nihil ab,
-          asperiores illo, fugiat vel optio.
-        </p>
+    <PageContainer>
+      <PageHeading>Workshop – Pro Tailwind CSS Gymnastics</PageHeading>
+      <p className="mt-4 max-w-prose text-lg font-medium text-slate-600 md:mt-6">
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Doloribus, sed animi recusandae
+        consequuntur quis et eveniet nulla. Maxime mollitia eaque harum quasi molestiae, nihil ab,
+        asperiores illo, fugiat vel optio.
+      </p>
 
-        <ul className="mx-auto mt-16 grid max-w-lg gap-12 md:max-w-none md:grid-cols-2 xl:grid-cols-3">
-          {lessonsMeta.map((lesson) => (
-            <ChallengeCard lesson={lesson} key={lesson.name} />
-          ))}
-        </ul>
-      </div>
-    </div>
+      <ul className="mx-auto mt-16 grid max-w-lg gap-12 md:max-w-none md:grid-cols-2 xl:grid-cols-3">
+        {lessonsMeta.map((lesson) => (
+          <ChallengeCard lesson={lesson} key={lesson.name} />
+        ))}
+      </ul>
+    </PageContainer>
   )
 }
 
@@ -41,7 +40,7 @@ function ChallengeCard({ lesson }) {
 
       <div className="w-full overflow-hidden rounded-lg bg-white shadow-md transition group-hover:shadow-lg">
         <Image src={lesson.image} alt="" />
-        <h2 className="border-t border-slate-200 p-8 text-center text-lg font-semibold text-gray-900">
+        <h2 className="border-t border-slate-200 p-8 text-center text-lg font-semibold text-slate-900">
           {lesson.name}
         </h2>
       </div>

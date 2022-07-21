@@ -9,7 +9,7 @@ export default function SlideInConfirmation() {
   return (
     <div className="h-full bg-indigo-600">
       <div className="mx-auto w-full max-w-lg p-16">
-        <div className="mx-4 rounded-2xl bg-white p-8 shadow-2xl">
+        <div className="mx-4 mt-12 rounded-2xl bg-white p-8 shadow-2xl">
           <h2 className="text-xl font-medium">Tuesday, 28th June 2022</h2>
           <ul className="-mx-4 mt-6 space-y-2 overflow-y-auto px-4">
             {times.map((time) => {
@@ -27,7 +27,7 @@ export default function SlideInConfirmation() {
                       'w-full rounded-lg px-5 py-3 font-semibold transition-all focus:outline-none',
                       isSelected
                         ? 'pointer-events-none bg-transparent text-white'
-                        : 'shrink-0 basis-full bg-indigo-50 text-indigo-700 hover:bg-indigo-100 focus:ring focus:ring-inset focus:ring-indigo-400'
+                        : 'shrink-0 basis-full bg-indigo-100 text-indigo-700 hover:bg-indigo-200 focus:ring focus:ring-inset focus:ring-indigo-400'
                     )}
                     onClick={() => setSelectedTime(time)}
                   >
@@ -36,7 +36,7 @@ export default function SlideInConfirmation() {
                   <button
                     tabIndex={isSelected ? 0 : -1}
                     className={cx(
-                      'm-2 rounded-md bg-indigo-50 px-4 py-1 font-medium text-indigo-900 hover:bg-white',
+                      'm-2 rounded-md bg-indigo-100 px-4 py-1 font-medium text-indigo-700 hover:bg-indigo-200',
                       !isSelected ? 'flex-1' : 'shrink'
                     )}
                   >

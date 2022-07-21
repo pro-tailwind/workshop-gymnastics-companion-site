@@ -72,7 +72,7 @@ export default function Homepage() {
         </div>
 
         <Link href="/challenges">
-          <a className="block bg-indigo-600 py-16 text-center text-2xl font-bold text-white transition hover:bg-teal-500 lg:py-24">
+          <a className="block bg-indigo-600 py-12 text-center text-xl font-bold text-white transition hover:bg-teal-500 md:py-16 md:text-2xl lg:py-24">
             Allright. Let's jump to the challenges! &rarr;
           </a>
         </Link>
@@ -91,37 +91,31 @@ const program = [
     time: '1:00 PM - 1:15 PM',
     what: 'housekeeping',
     duration: '15 min',
-    topic: 'Meet & Greet, Housekeeping',
   },
   {
     time: '1:15 PM - 2:15 PM',
-    what: 'content',
+    what: 'CSS gymnastics',
     duration: '60 min',
-    topic: 'Tailwind CSS challenges part 1',
   },
   {
     time: '2:15 PM - 2:30 PM',
     what: 'break',
     duration: '15 min',
-    topic: 'Coffee/Snacks',
   },
   {
     time: '2:30 PM - 3:45 PM',
-    what: 'content',
+    what: 'CSS gymnastics',
     duration: '75 min',
-    topic: 'Tailwind CSS challenges part 2',
   },
   {
     time: '3:45 PM - 4:00 PM',
     what: 'break',
     duration: '15 min',
-    topic: 'Coffee/Snacks',
   },
   {
     time: '4:00 PM - 5:00 PM',
-    what: 'content',
+    what: 'CSS gymnastics',
     duration: '60 min',
-    topic: 'Tailwind CSS challenges part 3',
   },
 ]
 
@@ -151,12 +145,6 @@ function Timetable() {
                 >
                   Duration
                 </th>
-                <th
-                  scope="col"
-                  className="py-3.5 px-3 text-left text-base font-semibold text-slate-900"
-                >
-                  Topic
-                </th>
               </tr>
             </thead>
             <tbody className="divide-y divide-slate-200">
@@ -185,14 +173,6 @@ function Timetable() {
                     )}
                   >
                     {entry.duration}
-                  </td>
-                  <td
-                    className={clsx(
-                      'whitespace-nowrap py-4 pl-3 pr-4 text-base font-medium text-slate-900 sm:pr-6 md:pr-0',
-                      entry.what === 'break' ? 'text-teal-900' : 'text-slate-900'
-                    )}
-                  >
-                    {entry.topic}
                   </td>
                 </tr>
               ))}

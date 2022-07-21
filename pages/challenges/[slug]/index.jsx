@@ -8,6 +8,7 @@ import { lessons } from '../../../data'
 
 import { BackArrow } from '../../../components/back-arrow'
 import { NotFound } from '../../../components/not-found'
+import { PageContainer } from '../../../components/page-container'
 
 export default function ReadmePage() {
   const {
@@ -42,59 +43,57 @@ export default function ReadmePage() {
   const level = difficultyMap[challenge.difficulty]
 
   return (
-    <div className="h-full bg-slate-100">
+    <>
       <BackArrow />
-      <div className="py-8 md:py-16 lg:py-32">
-        <div className="mx-auto mt-20 max-w-5xl px-4 sm:px-6 lg:px-8">
-          <div className="flex flex-col items-center gap-8">
-            <Image
-              src={challenge.image}
-              alt={challenge.name}
-              className="w-full max-w-2xl rounded-xl shadow-2xl"
-            />
-            <div>
-              <h1 className="text-center text-4xl font-bold">
-                <span className="text-indigo-600">“{challenge.name}”</span> challenge
-              </h1>
-              <ul className="mt-6 flex justify-center gap-2">
-                {/* How spicy is this? */}
-                <li className={clsx('flex gap-3 rounded px-2.5 py-1.5 font-bold', level.classes)}>
-                  <span>{level.emoji}</span>
-                  <span>{challenge.difficulty}</span>
-                </li>
-                {/* Timebox */}
-                <li className="flex gap-3 rounded bg-indigo-100 px-2.5 py-1.5 font-bold text-indigo-600">
-                  <span>⏰</span>
-                  <span>{challenge.duration}</span>
-                </li>
-              </ul>
-            </div>
-          </div>
-          <div className="prose prose-indigo mx-auto mt-12 xl:prose-xl">
-            <hr />
-
-            <p>
-              Demos:
-              <nav className="inline divide-x pl-4">
-                <Link href={`/challenges/${challenge.slug}/start`}>
-                  <a className="pr-4">Start</a>
-                </Link>
-                <Link href={`/solutions/${challenge.slug}`}>
-                  <a className="pl-4">Finish</a>
-                </Link>
-              </nav>
-            </p>
-
-            <ReactMarkdown>{challenge.readmeMarkdown}</ReactMarkdown>
-
-            <hr />
-
-            <p>
-              <strong>Good luck everybody! 🤞</strong>
-            </p>
+      <PageContainer>
+        <div className="flex flex-col items-center gap-8">
+          <Image
+            src={challenge.image}
+            alt={challenge.name}
+            className="w-full max-w-2xl rounded-xl shadow-2xl"
+          />
+          <div>
+            <h1 className="text-center text-4xl font-bold">
+              <span className="text-indigo-600">“{challenge.name}”</span> challenge
+            </h1>
+            <ul className="mt-6 flex justify-center gap-2">
+              {/* How spicy is this? */}
+              <li className={clsx('flex gap-3 rounded px-2.5 py-1.5 font-bold', level.classes)}>
+                <span>{level.emoji}</span>
+                <span>{challenge.difficulty}</span>
+              </li>
+              {/* Timebox */}
+              <li className="flex gap-3 rounded bg-indigo-100 px-2.5 py-1.5 font-bold text-indigo-600">
+                <span>⏰</span>
+                <span>{challenge.duration}</span>
+              </li>
+            </ul>
           </div>
         </div>
-      </div>
-    </div>
+        <div className="prose prose-indigo mx-auto mt-12 xl:prose-xl">
+          <hr />
+
+          <p>
+            Demos:
+            <nav className="inline divide-x pl-4">
+              <Link href={`/challenges/${challenge.slug}/start`}>
+                <a className="pr-4">Start</a>
+              </Link>
+              <Link href={`/solutions/${challenge.slug}`}>
+                <a className="pl-4">Finish</a>
+              </Link>
+            </nav>
+          </p>
+
+          <ReactMarkdown>{challenge.readmeMarkdown}</ReactMarkdown>
+
+          <hr />
+
+          <p>
+            <strong>Good luck everybody! 🤞</strong>
+          </p>
+        </div>
+      </PageContainer>
+    </>
   )
 }
