@@ -1,17 +1,13 @@
-<div class="fixed inset-0 flex">
-  <div class="flex-1 bg-indigo-600"></div>
-  <div class="hidden flex-1 bg-indigo-500 lg:block"></div>
+<div
+  class="fixed inset-0 grid grid-cols-[1fr,theme(width.80),calc(theme(maxWidth.5xl)-theme(width.80)-theme(padding.16)),1fr]"
+>
+  <div class="col-span-4 bg-indigo-600 lg:col-span-2"></div>
+  <div class="col-span-2 hidden bg-indigo-500 lg:block"></div>
 </div>
 
-<div class="fixed inset-0 hidden lg:block">
-  <div class="mx-auto grid h-full max-w-5xl grid-cols-[340px,2fr] px-8">
-    <div></div>
-    <div class="flex-1 bg-indigo-500"></div>
-  </div>
-</div>
 <div class="relative grid h-full place-items-center">
   <div class="mx-auto w-full max-w-5xl p-8">
-    <div class="grid h-[500px] overflow-hidden rounded-2xl lg:grid-cols-[340px,2fr]">
+    <div class="grid h-[500px] overflow-hidden rounded-2xl lg:grid-cols-[theme(width.80),1fr]">
       <div class="bg-white/90"></div>
       <div class="bg-white"></div>
     </div>

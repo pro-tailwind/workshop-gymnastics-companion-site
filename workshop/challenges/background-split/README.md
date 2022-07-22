@@ -8,7 +8,7 @@ This should give a few pointers on how to complete the challenge, but... not too
 ### 🔗 Links
 
 - [Figma file](https://www.figma.com/file/GyY3xq90qabr0DXDKSDtsO/Pro-Tailwind-Workshop---Advanced-Tailwind-CSS-Gymnastics?node-id=5%3A61)
-- [Tailwind Play](https://play.tailwindcss.com/h8e47lSpXO)
+- [Tailwind Play](https://play.tailwindcss.com/KLiq5rquhN)
 
 ---
 
