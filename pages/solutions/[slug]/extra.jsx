@@ -1,10 +1,10 @@
 import { useRouter } from 'next/router'
 
-import { lessons } from '../../data'
+import { lessons } from '../../../data'
 
-import { HtmlSnippet } from '../../components/html-snippet'
-import { BackArrow } from '../../components/back-arrow'
-import { NotFound } from '../../components/not-found'
+import { HtmlSnippet } from '../../../components/html-snippet'
+import { BackArrow } from '../../../components/back-arrow'
+import { NotFound } from '../../../components/not-found'
 
 export default function SolutionSnippetsPage() {
   const {
@@ -13,7 +13,7 @@ export default function SolutionSnippetsPage() {
   if (!slug) return ''
   const challenge = lessons.find((lesson) => lesson.slug === slug)
   if (!challenge) return <NotFound />
-  const Snippet = challenge.solutionSnippet
+  const Snippet = challenge.extraSnippet
   return (
     <div>
       <BackArrow inverted />

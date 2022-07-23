@@ -6,7 +6,7 @@ import ribbonMarkdown from './workshop/challenges/ribbon/README.md'
 import scrollFadeoutListMarkdown from './workshop/challenges/scroll-fadeout-list/README.md'
 import slideInConfirmationMarkdown from './workshop/challenges/slide-in-confirmation/README.md'
 
-// Start HTML
+// Start
 import animatedStripesStart from './workshop/challenges/animated-stripes/index.html'
 import backgroundSplitStart from './workshop/challenges/background-split/index.html'
 import caretCutoffStart from './workshop/challenges/caret-cutoff/index.html'
@@ -14,13 +14,21 @@ import ribbonStart from './workshop/challenges/ribbon/index.html'
 import scrollFadeoutListStart from './workshop/challenges/scroll-fadeout-list/index.html'
 import SlideInConfirmationStart from './workshop/challenges/slide-in-confirmation'
 
-// Solution HTML
+// Solution - Challenge
 import animatedStripesSolution from './workshop/solutions/animated-stripes/index.html'
 import backgroundSplitSolution from './workshop/solutions/background-split/index.html'
 import caretCutoffSolution from './workshop/solutions/caret-cutoff/index.html'
 import ribbonSolution from './workshop/solutions/ribbon/index.html'
 import scrollFadeoutListSolution from './workshop/solutions/scroll-fadeout-list/index.html'
 import SlideInConfirmationSolution from './workshop/solutions/slide-in-confirmation'
+
+// Solution - Extra
+import animatedStripesExtra from './workshop/solutions/animated-stripes/extra.html'
+import backgroundSplitExtra from './workshop/solutions/background-split/extra.html'
+import caretCutoffExtra from './workshop/solutions/caret-cutoff/extra.html'
+import ribbonExtra from './workshop/solutions/ribbon/extra.html'
+import scrollFadeoutListExtra from './workshop/solutions/scroll-fadeout-list/extra.html'
+import SlideInConfirmationExtra from './workshop/solutions/slide-in-confirmation/extra'
 
 // Images
 import animatedStripesImage from './public/images/thumbnails/animated-stripes.jpg'
@@ -41,6 +49,7 @@ export const lessons = [
     readmeMarkdown: ribbonMarkdown,
     startSnippet: ribbonStart,
     solutionSnippet: ribbonSolution,
+    extraSnippet: ribbonExtra,
   },
   {
     name: 'Background split',
@@ -52,6 +61,7 @@ export const lessons = [
     readmeMarkdown: backgroundSplitMarkdown,
     startSnippet: backgroundSplitStart,
     solutionSnippet: backgroundSplitSolution,
+    extraSnippet: backgroundSplitExtra,
   },
   {
     name: 'Caret cutoff',
@@ -63,6 +73,7 @@ export const lessons = [
     readmeMarkdown: caretCutoffMarkdown,
     startSnippet: caretCutoffStart,
     solutionSnippet: caretCutoffSolution,
+    extraSnippet: caretCutoffExtra,
   },
   {
     name: 'Scroll fade-out list',
@@ -74,6 +85,7 @@ export const lessons = [
     readmeMarkdown: scrollFadeoutListMarkdown,
     startSnippet: scrollFadeoutListStart,
     solutionSnippet: scrollFadeoutListSolution,
+    extraSnippet: scrollFadeoutListExtra,
   },
   {
     name: 'Animated stripes',
@@ -85,6 +97,7 @@ export const lessons = [
     readmeMarkdown: animatedStripesMarkdown,
     startSnippet: animatedStripesStart,
     solutionSnippet: animatedStripesSolution,
+    extraSnippet: animatedStripesExtra,
   },
   {
     name: 'Slide-in confirmation',
@@ -96,6 +109,7 @@ export const lessons = [
     readmeMarkdown: slideInConfirmationMarkdown,
     startSnippet: SlideInConfirmationStart,
     solutionSnippet: SlideInConfirmationSolution,
+    extraSnippet: SlideInConfirmationExtra,
   },
 ]
 

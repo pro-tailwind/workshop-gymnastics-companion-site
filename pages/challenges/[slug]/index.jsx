@@ -73,25 +73,19 @@ export default function ReadmePage() {
         <div className="prose prose-indigo mx-auto mt-12 xl:prose-xl">
           <hr />
 
-          <p>
-            Demos:
-            <nav className="inline divide-x pl-4">
-              <Link href={`/challenges/${challenge.slug}/start`}>
-                <a className="pr-4">Start</a>
-              </Link>
-              <Link href={`/solutions/${challenge.slug}`}>
-                <a className="pl-4">Finish</a>
-              </Link>
-            </nav>
-          </p>
-
-          <ReactMarkdown>{challenge.readmeMarkdown}</ReactMarkdown>
-
-          <hr />
-
-          <p>
-            <strong>Good luck everybody! 🤞</strong>
-          </p>
+          <ReactMarkdown
+            components={{
+              a: ({ children, href }) => {
+                return (
+                  <Link href={href}>
+                    <a>{children}</a>
+                  </Link>
+                )
+              },
+            }}
+          >
+            {challenge.readmeMarkdown}
+          </ReactMarkdown>
         </div>
       </PageContainer>
     </>
