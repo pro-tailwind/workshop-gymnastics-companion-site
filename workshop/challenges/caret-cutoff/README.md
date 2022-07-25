@@ -14,7 +14,7 @@ Let's make the page background a bit more interesting by adding a "color split" 
 
 ### 🌶 Extra sauce
 
-[Extra demo](/challenges/caret-cutoff/extra)
+[Extra demo](/solutions/caret-cutoff/extra)
 
 If you've completed the challenge, try create the same ribbon on the top left corner as well!
 
@@ -30,7 +30,7 @@ You've got this. Have fun!
 
 Try not look at these too early. Struggling is good and part of the learning process!
 
-[Challenge (Tailwind Play)](https://play.tailwindcss.com/njxuJngBjj) | [Extra sauce (Tailwind Play)](https://play.tailwindcss.com/njxuJngBjj)
+[Challenge (Tailwind Play)](https://play.tailwindcss.com/XaUFtx4shX) | [Extra sauce (Tailwind Play)](https://play.tailwindcss.com/GbvTL59lzh)
 
 ---
 

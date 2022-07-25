@@ -14,9 +14,9 @@ Let's make the page background a bit more interesting by adding a "color split" 
 
 ### 🌶 Extra sauce
 
-[Extra demo](/challenges/scroll-fadeout-list/extra)
+[Extra demo](/solutions/scroll-fadeout-list/extra)
 
-If you've completed the challenge, try create the same ribbon on the top left corner as well!
+If you've got the scroll list working, try adding a nice "fade-out" effect at the bottom of the scroll container, as featured in the Figma file.
 
 ---
 
@@ -30,7 +30,7 @@ You've got this. Have fun!
 
 Try not look at these too early. Struggling is good and part of the learning process!
 
-[Challenge (Tailwind Play)](https://play.tailwindcss.com/njxuJngBjj) | [Extra sauce (Tailwind Play)](https://play.tailwindcss.com/njxuJngBjj)
+[Challenge (Tailwind Play)](https://play.tailwindcss.com/BNgpqFGXYT?size=1332x1582) | [Extra sauce (Tailwind Play)](https://play.tailwindcss.com/qeLuCTQgq4?size=1324x1502)
 
 ---
 

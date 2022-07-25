@@ -42,7 +42,7 @@ You've got this. Have fun!
 
 Try not look at these too early. Struggling is good and part of the learning process!
 
-[Challenge (Tailwind Play)](https://play.tailwindcss.com/gMrm7JKppy) | [Extra sauce (Tailwind Play)](https://play.tailwindcss.com/ObQnsff4g9)
+[Challenge (Tailwind Play)](https://play.tailwindcss.com/kWPtETBRa6) | [Extra sauce (Tailwind Play)](https://play.tailwindcss.com/njxuJngBjj)
 
 ---
 

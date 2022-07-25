@@ -8,13 +8,13 @@ Let's make the page background a bit more interesting by adding a "color split" 
 
 ### 🔗 Links
 
-[Figma file](https://www.figma.com/file/GyY3xq90qabr0DXDKSDtsO/Pro-Tailwind-Workshop---Advanced-Tailwind-CSS-Gymnastics?node-id=11%3A462) | [Tailwind Play](https://play.tailwindcss.com/fNSYeEzIzT)
+[Figma file](https://www.figma.com/file/GyY3xq90qabr0DXDKSDtsO/Pro-Tailwind-Workshop---Advanced-Tailwind-CSS-Gymnastics?node-id=11%3A453) | [Tailwind Play](https://play.tailwindcss.com/hmY3FTtdjY)
 
 ---
 
 ### 🌶 Extra sauce
 
-[Extra demo](/challenges/animated-stripes/extra)
+[Extra demo](/solutions/animated-stripes/extra)
 
 If you've completed the challenge, try create the same ribbon on the top left corner as well!
 
@@ -30,7 +30,7 @@ You've got this. Have fun!
 
 Try not look at these too early. Struggling is good and part of the learning process!
 
-[Challenge (Tailwind Play)](https://play.tailwindcss.com/njxuJngBjj) | [Extra sauce (Tailwind Play)](https://play.tailwindcss.com/njxuJngBjj)
+[Challenge (Tailwind Play)](https://play.tailwindcss.com/RAh5vzkMpi) | [Extra sauce (Tailwind Play)](https://play.tailwindcss.com/nyUf8hkfqR)
 
 ---
 
