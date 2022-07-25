@@ -2,9 +2,11 @@
 
 [Start demo](/challenges/ribbon/start) | [Finish demo](/solutions/ribbon)
 
-This ribbon banner has some surprisingly sneaky bits to it. When prototyping it, I always found myslef reaching for "magic numbers", to nudge the ribbon into the right place.
+This ribbon banner has some surprisingly sneaky bits. When prototyping it, I always found myslef reaching for "magic numbers", to nudge the ribbon into the right place.
 
-There are definitely multiple ways to solve this, and I'm looking forward to see what approach you'll take.
+That's usually not a great thing.
+
+I eventually figured out something that I was happy with. There are definitely multiple ways to solve this, and I'm looking forward to see what approach you'll take.
 
 Make sure you collaborate on this, because there are quite a few creative ideas that can help!
 
@@ -40,7 +42,7 @@ You've got this. Have fun!
 
 Try not look at these too early. Struggling is good and part of the learning process!
 
-[Challenge (Tailwind Play)](https://play.tailwindcss.com/njxuJngBjj) | [Extra sauce (Tailwind Play)](https://play.tailwindcss.com/njxuJngBjj)
+[Challenge (Tailwind Play)](https://play.tailwindcss.com/gMrm7JKppy) | [Extra sauce (Tailwind Play)](https://play.tailwindcss.com/ObQnsff4g9)
 
 ---
 

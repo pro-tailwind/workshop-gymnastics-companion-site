@@ -4,6 +4,8 @@
 
 Let's make the page background a bit more interesting by adding a "color split" that vertically aligns with the card panels.
 
+Again, there are multiple ways to go about it. Let's see what you come up with!
+
 ---
 
 ### 🔗 Links
@@ -14,9 +16,9 @@ Let's make the page background a bit more interesting by adding a "color split" 
 
 ### 🌶 Extra sauce
 
-[Extra demo](/challenges/background-split/extra)
+[Extra demo](/solutions/background-split/extra)
 
-If you've completed the challenge, try create the same ribbon on the top left corner as well!
+If that was too easy, you can also add the circles and the big number as featured on the Figma file!
 
 ---
 
