@@ -8,7 +8,7 @@ Let's make the page background a bit more interesting by adding a "color split" 
 
 ### 🔗 Links
 
-[Figma file](https://www.figma.com/file/GyY3xq90qabr0DXDKSDtsO/Pro-Tailwind-Workshop---Advanced-Tailwind-CSS-Gymnastics?node-id=8%3A57) | [Tailwind Play](https://play.tailwindcss.com/PdYlX6rzX7)
+[Figma file](https://www.figma.com/file/GyY3xq90qabr0DXDKSDtsO/Pro-Tailwind-Workshop---Advanced-Tailwind-CSS-Gymnastics?node-id=8%3A57) | [Tailwind Play](https://play.tailwindcss.com/2x659lrTHV)
 
 ---
 
@@ -34,7 +34,7 @@ Those represent _one way_ of implementing this challenge. They are definitely no
 
 Also: try not look at these too early. Struggling is good and part of the learning process!
 
-[Challenge (Tailwind Play)](https://play.tailwindcss.com/qzPNQOM02l) | [Extra sauce (Tailwind Play)](https://play.tailwindcss.com/tnYPHMFBNr)
+[Challenge (Tailwind Play)](https://play.tailwindcss.com/202P22s0dQ) | [Extra sauce (Tailwind Play)](https://play.tailwindcss.com/uMRClGRpjm)
 
 ---
 
