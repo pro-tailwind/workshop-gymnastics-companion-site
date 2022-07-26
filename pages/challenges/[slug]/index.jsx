@@ -79,7 +79,7 @@ export default function ReadmePage() {
             components={{
               a: ({ children, href }) => {
                 const dynamicHref =
-                  href.startsWith('/') && process.env.NODE_ENV === 'production'
+                  href.startsWith('/') && !process.env.NODE_ENV === 'development'
                     ? 'https://css-gymnastics.protailwind.com' + href
                     : href
 
