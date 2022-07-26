@@ -74,8 +74,8 @@ export default function ReadmePage() {
           <hr />
 
           <ReactMarkdown
-            // Use `next/link` for links and change relative hrefs to point to
-            // the production site, so READMEs on GitHub link correctly
+            // Use `next/link` for links and change local hrefs (starting with `/`)
+            // to point to the production site, so READMEs on GitHub link correctly
             components={{
               a: ({ children, href }) => {
                 const dynamicHref = href.startsWith('/')
