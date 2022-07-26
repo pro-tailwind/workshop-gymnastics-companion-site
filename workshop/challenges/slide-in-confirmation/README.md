@@ -8,13 +8,13 @@ Let's make the page background a bit more interesting by adding a "color split" 
 
 ### 🔗 Links
 
-[Figma file](https://www.figma.com/file/GyY3xq90qabr0DXDKSDtsO/Pro-Tailwind-Workshop---Advanced-Tailwind-CSS-Gymnastics?node-id=11%3A219) | [Stackblitz](https://stackblitz.com/edit/github-mtrzxn-j9obrs)
+[Figma file](https://www.figma.com/file/GyY3xq90qabr0DXDKSDtsO/Pro-Tailwind-Workshop---Advanced-Tailwind-CSS-Gymnastics?node-id=11%3A219) | [Stackblitz](https://stackblitz.com/edit/github-mtrzxn-j9obrs?file=pages/index.jsx)
 
 ---
 
 ### 🌶 Extra sauce
 
-[Extra demo](/challenges/slide-in-confirmation/extra)
+[Extra demo](/solutions/slide-in-confirmation/extra)
 
 If you've completed the challenge, try create the same ribbon on the top left corner as well!
 
@@ -28,9 +28,11 @@ You've got this. Have fun!
 
 ### 🙈 Code solutions
 
-Try not look at these too early. Struggling is good and part of the learning process!
+Those represent _one way_ of implementing this challenge. They are definitely not the only possible approach!
 
-[Challenge (Tailwind Play)](https://play.tailwindcss.com/njxuJngBjj) | [Extra sauce (Tailwind Play)](https://play.tailwindcss.com/njxuJngBjj)
+Also: try not look at these too early. Struggling is good and part of the learning process!
+
+[Challenge (Stackblitz)](https://stackblitz.com/edit/github-mtrzxn-swtqzz?file=pages/index.jsx) | [Extra sauce (Stackblitz)](https://stackblitz.com/edit/github-mtrzxn-swtqzz?file=pages/index.jsx)
 
 ---
 

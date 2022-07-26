@@ -8,7 +8,7 @@ Let's make the page background a bit more interesting by adding a "color split" 
 
 ### 🔗 Links
 
-[Figma file](https://www.figma.com/file/GyY3xq90qabr0DXDKSDtsO/Pro-Tailwind-Workshop---Advanced-Tailwind-CSS-Gymnastics?node-id=8%3A57) | [Tailwind Play](https://play.tailwindcss.com/gDyAeSgi1o)
+[Figma file](https://www.figma.com/file/GyY3xq90qabr0DXDKSDtsO/Pro-Tailwind-Workshop---Advanced-Tailwind-CSS-Gymnastics?node-id=8%3A57) | [Tailwind Play](https://play.tailwindcss.com/PdYlX6rzX7)
 
 ---
 
@@ -16,7 +16,9 @@ Let's make the page background a bit more interesting by adding a "color split" 
 
 [Extra demo](/solutions/caret-cutoff/extra)
 
-If you've completed the challenge, try create the same ribbon on the top left corner as well!
+If you managed to get the caret working on the desktop view, try making it work for smaller screens as well, when the panels are stacked.
+
+The design is up to you, but I imagine the caret should point downwards instead of to the right in that scenario.
 
 ---
 
@@ -28,9 +30,11 @@ You've got this. Have fun!
 
 ### 🙈 Code solutions
 
-Try not look at these too early. Struggling is good and part of the learning process!
+Those represent _one way_ of implementing this challenge. They are definitely not the only possible approach!
 
-[Challenge (Tailwind Play)](https://play.tailwindcss.com/XaUFtx4shX) | [Extra sauce (Tailwind Play)](https://play.tailwindcss.com/GbvTL59lzh)
+Also: try not look at these too early. Struggling is good and part of the learning process!
+
+[Challenge (Tailwind Play)](https://play.tailwindcss.com/qzPNQOM02l) | [Extra sauce (Tailwind Play)](https://play.tailwindcss.com/tnYPHMFBNr)
 
 ---
 

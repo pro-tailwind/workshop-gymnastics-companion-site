@@ -2,7 +2,7 @@ const plugin = require('tailwindcss/plugin')
 
 module.exports = plugin.withOptions(function (options) {
   return function ({ addUtilities }) {
-    const name = options?.name || 'bg-animated-stripes'
+    const name = options?.name || 'bg-stripes'
     return addUtilities({
       [`.${name}`]: {
         '--stripes-color': options?.color || '255 255 255',

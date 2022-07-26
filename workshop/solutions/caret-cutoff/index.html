@@ -1,30 +1,35 @@
-<div class="grid h-full place-items-center overflow-hidden bg-indigo-600">
-  <div class="mx-auto w-full max-w-5xl p-8">
-    <div class="flex h-[500px] flex-col overflow-hidden rounded-2xl shadow-xl lg:flex-row">
-      <div class="relative basis-1/3 bg-white/90 pr-4">
-        <svg class="absolute top-0 right-0 hidden h-full w-4 drop-shadow-lg lg:block">
-          <mask id="cutoff">
-            <rect class="h-full w-full fill-white"></rect>
-            <rect
-              class="translate-y-10 -translate-x-0.5 rotate-45 scale-[141.42%] fill-black"
-              x="0"
-              y="0"
-              rx="3"
-              ry="3"
-              width="16"
-              height="16"
-            />
-          </mask>
-          <rect class="h-full w-full fill-white" mask="url(#cutoff)"></rect>
-        </svg>
-
-        <h2 class="p-10 text-xl font-semibold">Side panel</h2>
-      </div>
-      <div class="relative basis-2/3 bg-white">
-        <div class="-ml-4">
-          <h2 class="p-10 text-xl font-semibold">Main panel</h2>
+<div class="grid h-full place-items-center overflow-hidden bg-indigo-600 p-16">
+  <div class="mx-auto w-full max-w-xl">
+    <div class="overflow-hidden rounded-2xl sm:grid sm:grid-cols-[theme(width.56),1fr]">
+      <!-- Side panel -->
+      <aside class="relative h-48 bg-gray-200 sm:h-64">
+        <div
+          class="absolute right-0 hidden h-full w-4 flex-col drop-shadow-[0_-4px_5px_rgb(0_0_0_/_0.1)] sm:flex"
+        >
+          <div class="h-6 w-full bg-white"></div>
+          <!-- SVG with "cutoff" mask -->
+          <svg class="h-10 w-full">
+            <mask id="cutoff">
+              <rect class="h-full w-full fill-white" />
+              <rect
+                class="h-6 w-6 origin-center -translate-x-5 translate-y-1 rotate-45 fill-black"
+                rx="3"
+              />
+            </mask>
+            <rect class="h-full w-full fill-white" mask="url(#cutoff)" />
+          </svg>
+          <div class="flex-1 bg-white"></div>
         </div>
-      </div>
+        <div class="p-8">
+          <h2>Side panel</h2>
+        </div>
+      </aside>
+      <!-- Main panel -->
+      <main class="relative h-48 bg-white sm:h-64">
+        <div class="py-8 px-4 pr-8">
+          <h2>Main panel</h2>
+        </div>
+      </main>
     </div>
   </div>
 </div>

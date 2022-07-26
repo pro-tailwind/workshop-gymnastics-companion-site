@@ -40,7 +40,9 @@ You've got this. Have fun!
 
 ### 🙈 Code solutions
 
-Try not look at these too early. Struggling is good and part of the learning process!
+Those represent _one way_ of implementing this challenge. They are definitely not the only possible approach!
+
+Also: try not look at these too early. Struggling is good and part of the learning process!
 
 [Challenge (Tailwind Play)](https://play.tailwindcss.com/kWPtETBRa6) | [Extra sauce (Tailwind Play)](https://play.tailwindcss.com/njxuJngBjj)
 
