@@ -78,11 +78,11 @@ export default function ReadmePage() {
             // to point to the production site, so READMEs on GitHub link correctly
             components={{
               a: ({ children, href }) => {
-                const dynamicHref = href.startsWith('/')
-                  ? process.env.NODE_ENV === 'development'
-                    ? href
-                    : 'https://css-gymnastics.protailwind.com' + href
-                  : href
+                const dynamicHref =
+                  href.startsWith('/') && process.env.NODE_ENV === 'production'
+                    ? 'https://css-gymnastics.protailwind.com' + href
+                    : href
+
                 return (
                   <Link href={dynamicHref}>
                     <a>{children}</a>
