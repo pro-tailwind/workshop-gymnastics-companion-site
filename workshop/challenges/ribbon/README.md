@@ -1,6 +1,6 @@
 ### 🎯 Challenge
 
-[Start demo](/challenges/ribbon/start) | [Finish demo](/solutions/ribbon)
+[Start demo](https://css-gymnastics.protailwind.com/challenges/ribbon/start) | [Finish demo](https://css-gymnastics.protailwind.com/solutions/ribbon)
 
 This ribbon banner has some surprisingly sneaky bits. When prototyping it, I always found myslef reaching for "magic numbers", to nudge the ribbon into the right place.
 
@@ -24,7 +24,7 @@ When the time is up, I'll walk everyone through my implementation, and we'll rev
 
 ### 🌶 Extra sauce
 
-[Extra demo](/solutions/ribbon/extra)
+[Extra demo](https://css-gymnastics.protailwind.com/solutions/ribbon/extra)
 
 If you've completed the challenge, try create the same ribbon on the top left corner as well!
 

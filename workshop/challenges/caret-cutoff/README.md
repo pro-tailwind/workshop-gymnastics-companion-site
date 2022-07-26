@@ -1,6 +1,6 @@
 ### 🎯 Challenge
 
-[Start demo](/challenges/caret-cutoff/start) | [Finish demo](/solutions/caret-cutoff)
+[Start demo](https://css-gymnastics.protailwind.com/challenges/caret-cutoff/start) | [Finish demo](https://css-gymnastics.protailwind.com/solutions/caret-cutoff)
 
 Let's make the page background a bit more interesting by adding a "color split" that vertically aligns with the card panels.
 
@@ -14,7 +14,7 @@ Let's make the page background a bit more interesting by adding a "color split" 
 
 ### 🌶 Extra sauce
 
-[Extra demo](/solutions/caret-cutoff/extra)
+[Extra demo](https://css-gymnastics.protailwind.com/solutions/caret-cutoff/extra)
 
 If you managed to get the caret working on the desktop view, try making it work for smaller screens as well, when the panels are stacked.
 

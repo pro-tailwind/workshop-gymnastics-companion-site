@@ -1,6 +1,6 @@
 ### 🎯 Challenge
 
-[Start demo](/challenges/slide-in-confirmation/start) | [Finish demo](/solutions/slide-in-confirmation)
+[Start demo](https://css-gymnastics.protailwind.com/challenges/slide-in-confirmation/start) | [Finish demo](https://css-gymnastics.protailwind.com/solutions/slide-in-confirmation)
 
 Let's make the page background a bit more interesting by adding a "color split" that vertically aligns with the card panels.
 
@@ -14,7 +14,7 @@ Let's make the page background a bit more interesting by adding a "color split" 
 
 ### 🌶 Extra sauce
 
-[Extra demo](/solutions/slide-in-confirmation/extra)
+[Extra demo](https://css-gymnastics.protailwind.com/solutions/slide-in-confirmation/extra)
 
 If you've completed the challenge, try create the same ribbon on the top left corner as well!
 

@@ -1,6 +1,6 @@
 ### 🎯 Challenge
 
-[Start demo](/challenges/scroll-fadeout-list/start) | [Finish demo](/solutions/scroll-fadeout-list)
+[Start demo](https://css-gymnastics.protailwind.com/challenges/scroll-fadeout-list/start) | [Finish demo](https://css-gymnastics.protailwind.com/solutions/scroll-fadeout-list)
 
 Let's make the page background a bit more interesting by adding a "color split" that vertically aligns with the card panels.
 
@@ -14,7 +14,7 @@ Let's make the page background a bit more interesting by adding a "color split" 
 
 ### 🌶 Extra sauce
 
-[Extra demo](/solutions/scroll-fadeout-list/extra)
+[Extra demo](https://css-gymnastics.protailwind.com/solutions/scroll-fadeout-list/extra)
 
 If you've got the scroll list working, try adding a nice "fade-out" effect at the bottom of the scroll container, as featured in the Figma file.
 

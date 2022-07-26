@@ -1,6 +1,6 @@
 ### 🎯 Challenge
 
-[Start demo](/challenges/background-split/start) | [Finish demo](/solutions/background-split)
+[Start demo](https://css-gymnastics.protailwind.com/challenges/background-split/start) | [Finish demo](https://css-gymnastics.protailwind.com/solutions/background-split)
 
 Let's make the page background a bit more interesting by adding a "color split" that vertically aligns with the card panels.
 
@@ -16,7 +16,7 @@ Again, there are multiple ways to go about it. Let's see what you come up with!
 
 ### 🌶 Extra sauce
 
-[Extra demo](/solutions/background-split/extra)
+[Extra demo](https://css-gymnastics.protailwind.com/solutions/background-split/extra)
 
 If that was too easy, you can also add the circles and the big number as featured on the Figma file!
 

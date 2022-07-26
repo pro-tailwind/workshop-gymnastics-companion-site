@@ -1,6 +1,6 @@
 ### 🎯 Challenge
 
-[Start demo](/challenges/animated-stripes/start) | [Finish demo](/solutions/animated-stripes)
+[Start demo](https://css-gymnastics.protailwind.com/challenges/animated-stripes/start) | [Finish demo](https://css-gymnastics.protailwind.com/solutions/animated-stripes)
 
 Let's make the page background a bit more interesting by adding a "color split" that vertically aligns with the card panels.
 
@@ -14,7 +14,7 @@ Let's make the page background a bit more interesting by adding a "color split" 
 
 ### 🌶 Extra sauce
 
-[Extra demo](/solutions/animated-stripes/extra)
+[Extra demo](https://css-gymnastics.protailwind.com/solutions/animated-stripes/extra)
 
 If you've completed the challenge, try create the same ribbon on the top left corner as well!
 
