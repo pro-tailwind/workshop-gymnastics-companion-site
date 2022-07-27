@@ -38,6 +38,8 @@ import animatedStripesImage from './public/images/thumbnails/animated-stripes.jp
 import slideInConfirmationImage from './public/images/thumbnails/slide-in-confirmation.jpg'
 import caretCutoffImage from './public/images/thumbnails/caret-cutoff.jpg'
 
+export const prodUrl = 'https://css-gymnastics.protailwind.com'
+
 export const lessons = [
   {
     name: 'Ribbon banner',

@@ -2,7 +2,9 @@
 
 [Start demo](https://css-gymnastics.protailwind.com/challenges/scroll-fadeout-list/start) | [Finish demo](https://css-gymnastics.protailwind.com/solutions/scroll-fadeout-list)
 
-Let's make the page background a bit more interesting by adding a "color split" that vertically aligns with the card panels.
+Scrolling containers are often confusing to implement. In the starting point code, the list of available times is broken: it's not scrolling.
+
+Your challenge is to fix that, so that users can see every option available.
 
 ---
 
@@ -16,7 +18,7 @@ Let's make the page background a bit more interesting by adding a "color split" 
 
 [Extra demo](https://css-gymnastics.protailwind.com/solutions/scroll-fadeout-list/extra)
 
-If you've got the scroll list working, try adding a nice "fade-out" effect at the bottom of the scroll container, as featured in the Figma file.
+If you've got the scroll list working, try adding some delight by implementing a nice "fade-out" effect at the bottom of the scroll container, as you can see in the Figma file.
 
 ---
 
@@ -32,7 +34,7 @@ Those represent _one way_ of implementing this challenge. They are definitely no
 
 Also: try not look at these too early. Struggling is good and part of the learning process!
 
-[Challenge (Tailwind Play)](https://play.tailwindcss.com/BNgpqFGXYT?size=1332x1582) | [Extra sauce (Tailwind Play)](https://play.tailwindcss.com/qeLuCTQgq4?size=1324x1502)
+[Challenge (Tailwind Play)](https://play.tailwindcss.com/BNgpqFGXYT) | [Extra sauce (Tailwind Play)](https://play.tailwindcss.com/qeLuCTQgq4)
 
 ---
 

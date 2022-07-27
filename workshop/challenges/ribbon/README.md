@@ -6,13 +6,9 @@ This ribbon banner has some surprisingly sneaky bits. When prototyping it, I alw
 
 That's usually not a great thing.
 
-I eventually figured out something that I was happy with. There are definitely multiple ways to solve this, and I'm looking forward to see what approach you'll take.
+I eventually figured out something that I was happy with. There are definitely multiple ways to solve this, and I'm looking forward to see what approach you'll take!
 
-Make sure you collaborate on this, because there are quite a few creative ideas that can help!
-
-If you're stuck - don't worry! Struggling for a bit is good. I'll drop some hints, jump in your breakout room answer questions if you need help.
-
-When the time is up, I'll walk everyone through my implementation, and we'll review and discuss what other groups came up with.
+Make sure you collaborate on this and "think outside the box", because there are quite a few creative ideas that can help.
 
 ---
 
@@ -26,9 +22,9 @@ When the time is up, I'll walk everyone through my implementation, and we'll rev
 
 [Extra demo](https://css-gymnastics.protailwind.com/solutions/ribbon/extra)
 
-If you've completed the challenge, try create the same ribbon on the top left corner as well!
+If you've completed the challenge, try create the same ribbon on the different corners as well!
 
-This should expose a few interesting points you'd consider if you were to create a re-usable Ribbon component with custom parameters.
+What about different sizes, colors? This should expose a few interesting points you'd consider if you were to create a re-usable Ribbon component with custom parameters.
 
 ---
 

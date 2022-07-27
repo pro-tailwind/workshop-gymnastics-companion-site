@@ -4,6 +4,8 @@
 
 Let's make the page background a bit more interesting by adding a "color split" that vertically aligns with the card panels.
 
+We're only doing this when the card panels are side-by-side. Don't worry about smaller screens where the panels are stacked.
+
 Again, there are multiple ways to go about it. Let's see what you come up with!
 
 ---
@@ -18,7 +20,7 @@ Again, there are multiple ways to go about it. Let's see what you come up with!
 
 [Extra demo](https://css-gymnastics.protailwind.com/solutions/background-split/extra)
 
-If that was too easy, you can also add the circles and the big number as featured on the Figma file!
+Too easy? Add the two decorative circles as well, and the big number on the botom right, as you can see on the Figma file.
 
 ---
 

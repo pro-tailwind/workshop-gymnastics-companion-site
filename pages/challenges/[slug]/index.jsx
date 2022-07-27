@@ -4,7 +4,7 @@ import Image from 'next/future/image'
 import ReactMarkdown from 'react-markdown'
 import clsx from 'clsx'
 
-import { lessons } from '../../../data'
+import { prodUrl, lessons } from '../../../data'
 
 import { BackArrow } from '../../../components/back-arrow'
 import { NotFound } from '../../../components/not-found'
@@ -78,7 +78,6 @@ export default function ReadmePage() {
             // to point to the production site, so READMEs on GitHub link correctly
             components={{
               a: ({ children, href }) => {
-                const prodUrl = 'https://css-gymnastics.protailwind.com'
                 return (
                   <Link href={href.replace(prodUrl, '')}>
                     <a>{children}</a>
