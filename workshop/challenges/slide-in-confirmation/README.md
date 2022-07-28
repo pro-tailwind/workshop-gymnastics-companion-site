@@ -8,6 +8,8 @@ The Figma file can't really show this, but have a look at the [Finish demo](http
 
 We're using `JSX` for this example just so that we can keep track of the `selectedTime` state, and loop over some time availabilities.
 
+To add animated stripes to an element, you can use the custom `bg-stripes` utility class - don't build that from scratch in this challenge!
+
 ---
 
 ### 🔗 Links
@@ -20,7 +22,7 @@ We're using `JSX` for this example just so that we can keep track of the `select
 
 [Extra demo](https://css-gymnastics.protailwind.com/solutions/slide-in-confirmation/extra)
 
-If you've completed the challenge, try create the same ribbon on the top left corner as well!
+Add a short transition delay for the confirm button "swoop-in", just for fun!
 
 ---
 
@@ -36,7 +38,7 @@ Those represent _one way_ of implementing this challenge. They are definitely no
 
 Also: try not look at these too early. Struggling is good and part of the learning process!
 
-[Challenge (Stackblitz)](https://stackblitz.com/edit/github-mtrzxn-swtqzz?file=pages/index.jsx) | [Extra sauce (Stackblitz)](https://stackblitz.com/edit/github-mtrzxn-swtqzz?file=pages/index.jsx)
+[Challenge (Stackblitz)](https://stackblitz.com/edit/pro-tailwind-slide-in-confirmation-finish?file=pages/index.jsx) | [Extra sauce (Stackblitz)](https://stackblitz.com/edit/github-mtrzxn-swtqzz?file=pages/index.jsx)
 
 ---
 
