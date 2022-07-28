@@ -3,6 +3,26 @@ import cx from 'clsx'
 
 const times = ['8:00 AM', '10:00 AM', '3:00 PM', '5:00 PM']
 
+const twClasses = /*tw*/ {
+  wrapper: {
+    base: 'flex gap-2 overflow-hidden rounded-lg',
+    selected: 'bg-indigo-600 bg-stripes',
+  },
+  timeButton: {
+    base: 'basis-full rounded-lg px-5 py-3 font-semibold focus:outline-none transition-[flex-basis,flex-shrink] duration-200',
+    // Use 50% of the space available when selected
+    selected: 'basis-1/2 pointer-events-none bg-transparent text-white',
+    // Use full width when not selected
+    notSelected:
+      'shrink-0 bg-indigo-100 text-indigo-700 hover:bg-indigo-200 focus:ring focus:ring-inset focus:ring-indigo-400',
+  },
+  confirmButton: {
+    base: 'basis-1/2 m-2 rounded-md bg-indigo-100 px-4 py-1 font-medium text-indigo-700 hover:bg-indigo-200 active:bg-indigo-50',
+    selected: 'translate-x-0',
+    notSelected: 'translate-x-full',
+  },
+} /*tw*/
+
 export default function SlideInConfirmation() {
   const [selectedTime, setSelectedTime] = useState(null)
 
@@ -15,29 +35,29 @@ export default function SlideInConfirmation() {
             {times.map((time) => {
               const isSelected = time === selectedTime
               return (
+                // Wrapper
                 <li
                   key={time}
-                  className={cx(
-                    'flex gap-2 overflow-hidden rounded-lg',
-                    isSelected && 'bg-indigo-600 bg-stripes'
-                  )}
+                  className={cx(twClasses.wrapper.base, isSelected && twClasses.wrapper.selected)}
                 >
+                  {/* Time button */}
                   <button
                     className={cx(
-                      'w-full rounded-lg px-5 py-3 font-semibold transition-all focus:outline-none',
-                      isSelected
-                        ? 'pointer-events-none bg-transparent text-white'
-                        : 'shrink-0 basis-full bg-indigo-100 text-indigo-700 hover:bg-indigo-200 focus:ring focus:ring-inset focus:ring-indigo-400'
+                      twClasses.timeButton.base,
+                      isSelected ? twClasses.timeButton.selected : twClasses.timeButton.notSelected
                     )}
                     onClick={() => setSelectedTime(time)}
                   >
                     {time}
                   </button>
+                  {/* Confirm button */}
                   <button
                     tabIndex={isSelected ? 0 : -1}
                     className={cx(
-                      'm-2 rounded-md bg-indigo-100 px-4 py-1 font-medium text-indigo-700 hover:bg-indigo-200',
-                      !isSelected ? 'flex-1' : 'shrink'
+                      twClasses.confirmButton.base,
+                      isSelected
+                        ? twClasses.confirmButton.selected
+                        : twClasses.confirmButton.notSelected
                     )}
                   >
                     Confirm

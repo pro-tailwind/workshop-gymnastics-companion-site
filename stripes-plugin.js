@@ -6,8 +6,8 @@ module.exports = plugin.withOptions(function (options) {
     return addUtilities({
       [`.${name}`]: {
         '--stripes-color': options?.color || '255 255 255',
-        '--stripes-opacity': options?.opacity || '0.25',
-        '--stripes-size': options?.size || 16,
+        '--stripes-opacity': options?.opacity || '0.15',
+        '--stripes-size': options?.size || 12,
         '--stripes-angle': options?.angle || '-45deg',
         '--stripes-speed': options?.speed || '0.7s',
         position: 'relative',

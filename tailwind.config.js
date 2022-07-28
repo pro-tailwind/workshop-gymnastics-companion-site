@@ -13,5 +13,5 @@ module.exports = {
       },
     },
   },
-  plugins: [require('./bgStripesPlugin'), require('@tailwindcss/typography')],
+  plugins: [require('./stripes-plugin'), require('@tailwindcss/typography')],
 }

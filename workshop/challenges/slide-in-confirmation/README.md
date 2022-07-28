@@ -2,13 +2,17 @@
 
 [Start demo](https://css-gymnastics.protailwind.com/challenges/slide-in-confirmation/start) | [Finish demo](https://css-gymnastics.protailwind.com/solutions/slide-in-confirmation)
 
-Let's make the page background a bit more interesting by adding a "color split" that vertically aligns with the card panels.
+Let's add some spice to our time picker by sliding-in a confirmation button when the time is pressed.
+
+The Figma file can't really show this, but have a look at the [Finish demo](https://css-gymnastics.protailwind.com/solutions/slide-in-confirmation) to see what I mean.
+
+We're using `JSX` for this example just so that we can keep track of the `selectedTime` state, and loop over some time availabilities.
 
 ---
 
 ### 🔗 Links
 
-[Figma file](https://www.figma.com/file/GyY3xq90qabr0DXDKSDtsO/Pro-Tailwind-Workshop---Advanced-Tailwind-CSS-Gymnastics?node-id=11%3A219) | [Stackblitz](https://stackblitz.com/edit/github-mtrzxn-j9obrs?file=pages/index.jsx)
+[Figma file](https://www.figma.com/file/GyY3xq90qabr0DXDKSDtsO/Pro-Tailwind-Workshop---Advanced-Tailwind-CSS-Gymnastics?node-id=11%3A219) | [StackBlitz](https://stackblitz.com/edit/protailwind-slide-in-confirmation-start?file=pages/index.jsx)
 
 ---
 

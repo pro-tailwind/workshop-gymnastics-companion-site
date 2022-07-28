@@ -70,7 +70,7 @@ export const lessons = [
     slug: 'scroll-fadeout-list',
     language: 'HTML',
     image: scrollFadeoutListImage,
-    duration: '20 minutes',
+    duration: '10 minutes',
     difficulty: 'mild',
     readmeMarkdown: scrollFadeoutListMarkdown,
     startSnippet: scrollFadeoutListStart,
