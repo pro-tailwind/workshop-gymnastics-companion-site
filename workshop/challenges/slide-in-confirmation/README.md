@@ -20,7 +20,7 @@ To add animated stripes to an element, you can use the custom `bg-stripes` utili
 
 ### 🌶 Extra sauce
 
-[Extra demo](https://css-gymnastics.protailwind.com/solutions/slide-in-confirmation/extra)
+[Extra demo](https://css-gymnastics.pro-tailwind.com/solutions/slide-in-confirmation/extra)
 
 Add a short transition delay for the confirm button "swoop-in", just for fun!
 
