@@ -38,7 +38,7 @@ Those represent _one way_ of implementing this challenge. They are definitely no
 
 Also: try not look at these too early. Struggling is good and part of the learning process!
 
-[Challenge (Stackblitz)](https://stackblitz.com/edit/pro-tailwind-slide-in-confirmation-finish?file=pages/index.jsx) | [Extra sauce (Stackblitz)](https://stackblitz.com/edit/github-mtrzxn-swtqzz?file=pages/index.jsx)
+[Challenge (Stackblitz)](https://stackblitz.com/edit/pro-tailwind-slide-in-confirmation-finish?file=pages/index.jsx) | [Extra sauce (Stackblitz)](https://stackblitz.com/edit/pro-tailwind-slide-in-confirmation-extra?file=pages/index.jsx)
 
 ---
 
