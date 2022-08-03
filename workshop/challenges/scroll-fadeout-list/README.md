@@ -40,4 +40,4 @@ Also: try not look at these too early. Struggling is good and part of the learni
 
 ### ✍️ Feedback form
 
-This really helps make the workshops better. [Thanks in advance!](https://docs.google.com/forms/d/e/1FAIpQLSfSSZbUOp67fZbXWuHxkJmGZw0wcx6uxkJI_kFzQvBiJ-Fhgg/viewform?usp=pp_url&entry.1747016377=Tailwind+CSS+Gymnastics&entry.305553560=Scroll+fadeout+list+challenge)
+[Click here to provide feedback](https://docs.google.com/forms/d/e/1FAIpQLSfSSZbUOp67fZbXWuHxkJmGZw0wcx6uxkJI_kFzQvBiJ-Fhgg/viewform?usp=pp_url&entry.1747016377=Tailwind+CSS+Gymnastics&entry.305553560=Scroll+fadeout+list+challenge). It will help me improve the challenges!
