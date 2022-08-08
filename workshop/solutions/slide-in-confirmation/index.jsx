@@ -3,26 +3,6 @@ import cx from 'clsx'
 
 const times = ['8:00 AM', '10:00 AM', '3:00 PM', '5:00 PM']
 
-const twClasses = /*tw*/ {
-  wrapper: {
-    base: 'flex gap-2 overflow-hidden rounded-lg',
-    selected: 'bg-indigo-600 bg-stripes',
-  },
-  timeButton: {
-    base: 'basis-full rounded-lg px-5 py-3 font-semibold focus:outline-none transition-[flex-basis,flex-shrink] duration-200',
-    // Use 50% of the space available when selected
-    selected: 'basis-1/2 pointer-events-none bg-transparent text-white',
-    // Use full width when not selected
-    notSelected:
-      'shrink-0 bg-indigo-100 text-indigo-700 hover:bg-indigo-200 focus:ring focus:ring-inset focus:ring-indigo-400',
-  },
-  confirmButton: {
-    base: 'basis-1/2 m-2 rounded-md bg-indigo-100 px-4 py-1 font-medium text-indigo-700 hover:bg-indigo-200 active:bg-indigo-50',
-    selected: 'translate-x-0',
-    notSelected: 'translate-x-full',
-  },
-} /*tw*/
-
 export default function SlideInConfirmation() {
   const [selectedTime, setSelectedTime] = useState(null)
 
@@ -38,13 +18,20 @@ export default function SlideInConfirmation() {
                 // Wrapper
                 <li
                   key={time}
-                  className={cx(twClasses.wrapper.base, isSelected && twClasses.wrapper.selected)}
+                  className={cx(
+                    'flex gap-2 overflow-hidden rounded-lg',
+                    isSelected ? 'bg-indigo-600 bg-stripes' : ''
+                  )}
                 >
                   {/* Time button */}
                   <button
                     className={cx(
-                      twClasses.timeButton.base,
-                      isSelected ? twClasses.timeButton.selected : twClasses.timeButton.notSelected
+                      'basis-full rounded-lg px-5 py-3 font-semibold transition-[flex-basis,flex-shrink] duration-200 focus:outline-none',
+                      isSelected
+                        ? // Use 50% of the space available when selected
+                          'pointer-events-none basis-1/2 bg-transparent text-white'
+                        : // Use full width when not selected
+                          'shrink-0 bg-indigo-100 text-indigo-700 hover:bg-indigo-200 focus:ring focus:ring-inset focus:ring-indigo-400'
                     )}
                     onClick={() => setSelectedTime(time)}
                   >
@@ -54,10 +41,8 @@ export default function SlideInConfirmation() {
                   <button
                     tabIndex={isSelected ? 0 : -1}
                     className={cx(
-                      twClasses.confirmButton.base,
-                      isSelected
-                        ? twClasses.confirmButton.selected
-                        : twClasses.confirmButton.notSelected
+                      'm-2 basis-1/2 rounded-md bg-indigo-100 px-4 py-1 font-medium text-indigo-700 hover:bg-indigo-200 active:bg-indigo-50',
+                      isSelected ? 'translate-x-0' : 'translate-x-full'
                     )}
                   >
                     Confirm

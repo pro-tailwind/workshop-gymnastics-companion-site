@@ -6,14 +6,6 @@ const times = ['8:00 AM', '10:00 AM', '3:00 PM', '5:00 PM']
 export default function SlideInConfirmation() {
   const [selectedTime, setSelectedTime] = useState(null)
 
-  const baseClasses =
-    'w-full rounded-lg px-5 py-3 font-semibold focus:outline-none focus:ring focus:ring-indigo-400'
-
-  const dynamicClasses = {
-    selected: 'bg-indigo-600 text-white',
-    notSelected: 'bg-indigo-100 text-indigo-700 hover:bg-indigo-200',
-  }
-
   return (
     <div className="h-full bg-indigo-600">
       <div className="mx-auto w-full max-w-lg p-16">
@@ -23,16 +15,19 @@ export default function SlideInConfirmation() {
             {times.map((time) => {
               const isSelected = time === selectedTime
               return (
-                <li key={time}>
+                <li key={time} className={cx('', isSelected ? '' : '')}>
                   <button
                     className={cx(
-                      baseClasses,
-                      isSelected ? dynamicClasses.selected : dynamicClasses.notSelected
+                      'w-full rounded-lg px-5 py-3 font-semibold focus:outline-none focus:ring focus:ring-indigo-400',
+                      isSelected
+                        ? 'bg-indigo-600 text-white'
+                        : 'bg-indigo-100 text-indigo-700 hover:bg-indigo-200'
                     )}
                     onClick={() => setSelectedTime(time)}
                   >
                     {time}
                   </button>
+                  {/* <button className={cx('', isSelected ? '' : '')}>Confirm</button> */}
                 </li>
               )
             })}
