@@ -14,7 +14,7 @@ To add animated stripes to an element, you can use the custom `bg-stripes` utili
 
 ### 🔗 Links
 
-[Figma file](https://www.figma.com/file/GyY3xq90qabr0DXDKSDtsO/Pro-Tailwind-Workshop---Advanced-Tailwind-CSS-Gymnastics?node-id=11%3A219) | [StackBlitz](https://stackblitz.com/edit/protailwind-slide-in-start?file=src/App.jsx)
+[Figma file](https://www.figma.com/file/GyY3xq90qabr0DXDKSDtsO/Pro-Tailwind-Workshop---Advanced-Tailwind-CSS-Gymnastics?node-id=11%3A219) | [StackBlitz](https://stackblitz.com/fork/protailwind-slide-in-start?file=src/App.jsx)
 
 ---
 
@@ -38,7 +38,7 @@ Those represent _one way_ of implementing this challenge. They are definitely no
 
 Also: try not look at these too early. Struggling is good and part of the learning process!
 
-[Challenge (Stackblitz)](https://stackblitz.com/edit/protailwind-slide-in-finish?file=src/App.jsx) | [Extra sauce (Stackblitz)](https://stackblitz.com/edit/protailwind-slide-in-extra?file=src/App.jsx)
+[Challenge (Stackblitz)](https://stackblitz.com/fork/protailwind-slide-in-finish?file=src/App.jsx) | [Extra sauce (Stackblitz)](https://stackblitz.com/fork/protailwind-slide-in-extra?file=src/App.jsx)
 
 ---
 
