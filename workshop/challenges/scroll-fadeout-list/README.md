@@ -10,7 +10,7 @@ Your challenge is to fix that, so that users can see every option available.
 
 ### 🔗 Links
 
-[Figma file](https://www.figma.com/file/GyY3xq90qabr0DXDKSDtsO/Pro-Tailwind-Workshop---Advanced-Tailwind-CSS-Gymnastics?node-id=10%3A116) | [Tailwind Play](https://play.tailwindcss.com/riwIRI2i2E)
+[Figma file](https://www.figma.com/file/GyY3xq90qabr0DXDKSDtsO/Pro-Tailwind-Workshop---Advanced-Tailwind-CSS-Gymnastics?node-id=10%3A116) | [Tailwind Play](https://play.tailwindcss.com/N6Khjs2esB)
 
 ---
 
@@ -34,7 +34,7 @@ Those represent _one way_ of implementing this challenge. They are definitely no
 
 Also: try not look at these too early. Struggling is good and part of the learning process!
 
-[Challenge (Tailwind Play)](https://play.tailwindcss.com/BNgpqFGXYT) | [Extra sauce (Tailwind Play)](https://play.tailwindcss.com/qeLuCTQgq4)
+[Challenge (Tailwind Play)](https://play.tailwindcss.com/IJTmH4Wav9) | [Extra sauce (Tailwind Play)](https://play.tailwindcss.com/k5DgDts1wq)
 
 ---
 
