@@ -14,7 +14,7 @@ To add animated stripes to an element, you can use the custom `bg-stripes` utili
 
 ### 🔗 Links
 
-[Figma file](https://www.figma.com/file/GyY3xq90qabr0DXDKSDtsO/Pro-Tailwind-Workshop---Advanced-Tailwind-CSS-Gymnastics?node-id=11%3A219) | [StackBlitz](https://stackblitz.com/edit/protailwind-slide-in-confirmation-start?file=pages/index.jsx)
+[Figma file](https://www.figma.com/file/GyY3xq90qabr0DXDKSDtsO/Pro-Tailwind-Workshop---Advanced-Tailwind-CSS-Gymnastics?node-id=11%3A219) | [StackBlitz](https://stackblitz.com/edit/pro-tailwind-slide-in-confirmation-start?file=pages/index.jsx)
 
 ---
 
