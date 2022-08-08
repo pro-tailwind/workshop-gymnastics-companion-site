@@ -12,7 +12,7 @@ Again, there are multiple ways to go about it. Let's see what you come up with!
 
 ### 🔗 Links
 
-[Figma file](https://www.figma.com/file/GyY3xq90qabr0DXDKSDtsO/Pro-Tailwind-Workshop---Advanced-Tailwind-CSS-Gymnastics?node-id=5%3A61) | [Tailwind Play](https://play.tailwindcss.com/KLiq5rquhN)
+[Figma file](https://www.figma.com/file/GyY3xq90qabr0DXDKSDtsO/Pro-Tailwind-Workshop---Advanced-Tailwind-CSS-Gymnastics?node-id=5%3A61) | [Tailwind Play](https://play.tailwindcss.com/wZXYjRMAiQ)
 
 ---
 
@@ -36,7 +36,7 @@ Those represent _one way_ of implementing this challenge. They are definitely no
 
 Also: try not look at these too early. Struggling is good and part of the learning process!
 
-[Challenge (Tailwind Play)](https://play.tailwindcss.com/gMrm7JKppy) | [Extra sauce (Tailwind Play)](https://play.tailwindcss.com/ObQnsff4g9)
+[Challenge (Tailwind Play)](https://play.tailwindcss.com/D071oXdObz) | [Extra sauce (Tailwind Play)](https://play.tailwindcss.com/HZeIrdUEBD)
 
 ---
 
