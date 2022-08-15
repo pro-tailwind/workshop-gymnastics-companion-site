@@ -52,7 +52,7 @@ Those represent _one way_ of implementing this challenge. They are definitely no
 
 Also: try not look at these too early. Struggling is good and part of the learning process!
 
-[Challenge (Tailwind Play)](https://play.tailwindcss.com/Xkh5RRe54A?file=css) | [Extra sauce (Tailwind Play)](https://play.tailwindcss.com/LGrb9uN8tu?file=css)
+[Challenge (Tailwind Play)](https://play.tailwindcss.com/Xkh5RRe54A?file=css) | [Extra sauce (Tailwind Play)](https://play.tailwindcss.com/LGrb9uN8tu?file=css) | [Extra Spicy sauce (Tailwind Play)](https://play.tailwindcss.com/K1RMyH5hfU?file=config)
 
 ---
 
