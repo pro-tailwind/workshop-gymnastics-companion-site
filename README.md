@@ -8,7 +8,7 @@ Technically, **you don't have to install anything on your machine for the worksh
 
 It's here if you want to run the site locally, but it's not a strict requirement to get it set up for the workshop.
 
-### Get ready to stretch those CSS muscles!
+## Get ready to stretch those CSS muscles!
 
 Together, we'll deconstruct interesting parts of the [Calendar Booking App](https://calendar-app.protailwind.com) and work our CSS gymnastics with some fun challenges!
 
@@ -16,7 +16,7 @@ I think you're in for a good time. But before we get started, let's go over some
 
 ---
 
-### Workshop Schedule
+## Workshop Schedule
 
 Here's what the workshop timetable will look like:
 
@@ -61,12 +61,16 @@ You can connect with me on Twitter, I'm [simonswiss](https://twitter.com/simonsw
 
 I'm super excited to dive into this workshop with you.
 
+---
+
 ### 📜 Assumptions
 
 This workshop assumes the following:
 
 - You are already familiar with Tailwind CSS and its core concepts
 - You are comfortable enough with CSS and JavaScript
+
+---
 
 ### 📋 Dev Environment Requirements
 
