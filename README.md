@@ -4,7 +4,9 @@ Hello! 👋
 
 I'm super excited to go through this upcoming workshop with you. This repo contains the workshop challenges we'll be working on, and you can access this site at [https://css-gymnastics.protailwind.com](https://css-gymnastics.protailwind.com).
 
-Technically, you don't have to install anything on your machine, since we'll be working with Tailwind Play and StackBlitz. It's here if you want to run the site locally, but it's not a strict requirement to get it set up for the workshop.
+Technically, **you don't have to install anything on your machine for the workshop**, since we'll be working with Tailwind Play and StackBlitz.
+
+It's here if you want to run the site locally, but it's not a strict requirement to get it set up for the workshop.
 
 ### Get ready to stretch those CSS muscles!
 
