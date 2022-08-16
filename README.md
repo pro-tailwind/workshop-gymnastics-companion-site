@@ -2,11 +2,7 @@
 
 Hello! 👋
 
-I'm excited to go through this upcoming workshop with you 🎉
-
-This repo contains the workshop challenges we'll be working on.
-
-You can access this site at https://css-gymnastics.protailwind.com
+I'm super excited to go through this upcoming workshop with you. This repo contains the workshop challenges we'll be working on, and you can access this site at [https://css-gymnastics.protailwind.com](https://css-gymnastics.protailwind.com).
 
 Technically, you don't have to install anything on your machine, since we'll be working with Tailwind Play and StackBlitz. It's here if you want to run the site locally, but it's not a strict requirement to get it set up for the workshop.
 
@@ -18,7 +14,7 @@ I think you're in for a good time. But before we get started, let's go over some
 
 ---
 
-## Workshop Schedule
+### Workshop Schedule
 
 Here's what the workshop timetable will look like:
 
@@ -63,7 +59,7 @@ You can connect with me on Twitter, I'm [simonswiss](https://twitter.com/simonsw
 
 I'm super excited to dive into this workshop with you.
 
-## 📜 Assumptions
+### 📜 Assumptions
 
 This workshop assumes the following:
 

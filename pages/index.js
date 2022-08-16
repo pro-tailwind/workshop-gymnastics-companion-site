@@ -212,12 +212,12 @@ function AboutMe() {
         </p>
         <p>
           I sometimes speak at conferences and meetups. I make YouTube videos and I'm also an
-          instructor on <a href="https://egghead.io">egghead.io</a>
+          instructor on <a href="https://egghead.io">egghead.io</a>.
         </p>
 
         <p>
           Oh, and I recently started a podcast with my new friend Jon Meyers - it's called{' '}
-          <code>The NavBar</code>, you should check it out!
+          <a href="https://anchor.fm/navbar">The NavBar</a>, you should check it out!
         </p>
         <p>
           You can connect with me on Twitter, I'm{' '}
