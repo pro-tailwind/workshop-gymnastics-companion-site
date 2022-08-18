@@ -38,8 +38,8 @@ export default function Homepage() {
             <h2>Get ready to stretch those CSS muscles!</h2>
             <p>
               Together, we'll deconstruct interesting parts of the{' '}
-              <a href="https://calendar-app.protailwind.com">Calendar Booking App</a> and work our
-              CSS gymnastics with some fun challenges!
+              <a href="https://calendar-app.protailwind.com">Calendar App</a> and work our CSS
+              gymnastics with some fun challenges!
             </p>
             <p>
               I think you're in for a good time. But before we get started, let's go over some
