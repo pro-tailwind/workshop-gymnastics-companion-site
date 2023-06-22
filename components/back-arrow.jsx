@@ -1,6 +1,5 @@
 import { useRouter } from 'next/router'
 import clsx from 'clsx'
-import { invert } from '@tailwindcss/typography/src/styles'
 
 export function BackArrow({ inverted }) {
   const router = useRouter()

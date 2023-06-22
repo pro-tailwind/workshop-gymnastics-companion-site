@@ -1,5 +1,5 @@
 import Link from 'next/link'
-import Image from 'next/future/image'
+import Image from 'next/image'
 import clsx from 'clsx'
 
 import heroImage from '../public/images/handstand.png'
@@ -71,10 +71,11 @@ export default function Homepage() {
           </div>
         </div>
 
-        <Link href="/challenges">
-          <a className="block bg-indigo-600 py-12 text-center text-xl font-bold text-white transition hover:bg-teal-500 md:py-16 md:text-2xl lg:py-24">
-            Allright. Let's jump to the challenges! &rarr;
-          </a>
+        <Link
+          href="/challenges"
+          className="block bg-indigo-600 py-12 text-center text-xl font-bold text-white transition hover:bg-teal-500 md:py-16 md:text-2xl lg:py-24"
+        >
+          Allright. Let's jump to the challenges! &rarr;
         </Link>
         <AboutMe />
       </div>

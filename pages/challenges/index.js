@@ -1,5 +1,5 @@
 import Link from 'next/link'
-import Image from 'next/future/image'
+import Image from 'next/image'
 
 import { PageContainer } from '../../components/page-container'
 import { PageHeading } from '../../components/page-heading'
@@ -44,9 +44,7 @@ function ChallengeCard({ lesson }) {
           {lesson.name}
         </h2>
       </div>
-      <Link href={`/challenges/${lesson.slug}`}>
-        <a className="absolute inset-0"></a>
-      </Link>
+      <Link href={`/challenges/${lesson.slug}`} className="absolute inset-0"></Link>
     </li>
   )
 }

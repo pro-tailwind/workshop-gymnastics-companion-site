@@ -1,6 +1,6 @@
 import { useRouter } from 'next/router'
 import Link from 'next/link'
-import Image from 'next/future/image'
+import Image from 'next/image'
 import ReactMarkdown from 'react-markdown'
 import clsx from 'clsx'
 
@@ -78,11 +78,7 @@ export default function ReadmePage() {
             // to point to the production site, so READMEs on GitHub link correctly
             components={{
               a: ({ children, href }) => {
-                return (
-                  <Link href={href.replace(prodUrl, '')}>
-                    <a>{children}</a>
-                  </Link>
-                )
+                return <Link href={href.replace(prodUrl, '')}>{children}</Link>
               },
             }}
           >
