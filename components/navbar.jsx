@@ -61,7 +61,7 @@ export function Navbar() {
           className="rounded-lg bg-yellow-500 px-5 py-3 font-bold text-yellow-900 hover:bg-yellow-400"
           href="https://protailwind.com/tutorials"
         >
-          FREE Video Tutorials
+          FREE Video Tutorials &rarr;
         </Link>
       </div>
     </div>
